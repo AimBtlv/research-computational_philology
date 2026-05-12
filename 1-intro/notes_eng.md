@@ -9,6 +9,7 @@ Find Clause: Then comes a long chain of coordination via _et_ — all coordinate
 |0|conj 3|custodiuit|conj → induxit|
 |0|conj 4|muniuit|conj → induxit|
 |0|conj 5|consolatus est|conj → induxit|
+
 **Characteristics of Sentence 5**:
 **1. The chain `conj` throughout the entire period.** Patrick constructs the sentence as one long narrative—six verbs coordinate with one ROOT. This is characteristic of early medieval Latin: rhetorical stringing.
 **2. The relative clause `qui respexit`** is an _embedded_ clause within the chain. _qui_ refers to _Dominum Deum meum_ and introduces a whole block of three clauses (`misertus est`, `custodiuit`, `muniuit`, `consolatus est`)—all of them `conj` within the relative clause.
