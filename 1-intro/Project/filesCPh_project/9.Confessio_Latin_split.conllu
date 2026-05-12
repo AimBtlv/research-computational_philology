@@ -1,0 +1,545 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = latin-ittb-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ego Patricius.
+1	Ego	ego	PRON	F1|grn1|casA|gen1	Case=Nom|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	TokenRange=0:3
+2	Patricius	patricius	PROPN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=4:13
+3	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=13:14
+
+# sent_id = 2
+# text = Peccator rusticissimus et minimus omnium fidelium.
+1	Peccator	peccator	NOUN	C1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	0	root	_	TokenRange=15:23
+2	rusticissimus	rusticus	ADJ	B1|grn3|casA|gen1	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	1	amod	_	TokenRange=24:37
+3	et	et	CCONJ	O4	_	4	cc	_	TokenRange=38:40
+4	minimus	paruus	ADJ	B1|grn3|casA|gen1	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	2	conj	_	TokenRange=41:48
+5	omnium	omnis	DET	C1|grn1|casK|gen1	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur|PronType=Tot	6	det	_	TokenRange=49:55
+6	fidelium	fidelis	ADJ	C1|grn1|casK|gen1	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur	2	nmod	_	SpaceAfter=No|TokenRange=56:64
+7	.	.	PUNCT	Punc	_	1	punct	_	SpacesAfter=\n|TokenRange=64:65
+
+# sent_id = 3
+# text = Et contemptibilissimus apud plurimos.
+1	Et	et	CCONJ	O4	_	2	cc	_	TokenRange=66:68
+2	contemptibilissimus	contemptibilis	ADJ	B1|grn3|casA|gen1	Case=Nom|Degree=Abs|Gender=Masc|InflClass=IndEurO|Number=Sing	0	root	_	TokenRange=69:88
+3	apud	apud	ADP	S4|vgr1	_	4	case	_	TokenRange=89:93
+4	plurimos	multus	DET	C1|grn2|casM|gen1	Case=Acc|Degree=Cmp|Gender=Masc|InflClass=IndEurX|Number=Plur|NumType=Card|PronType=Ind	2	obl	_	SpaceAfter=No|TokenRange=94:102
+5	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=102:103
+
+# sent_id = 4
+# text = Patrem habui Calpornium diaconum.
+1	Patrem	pater	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	2	obj	_	TokenRange=104:110
+2	habui	habeo	VERB	K3|modA|tem4|gen4	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=111:116
+3	Calpornium	Calpornius	PROPN	B1|grn1|casD|gen1	Case=Gen|Gender=Masc|InflClass=IndEurI|Number=Plur	4	nmod	_	TokenRange=117:127
+4	diaconum	diaconus	NOUN	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=128:136
+5	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=136:137
+
+# sent_id = 5
+# text = Filium quendam Potiti presbyteri, qui fuit uico bannauem taburniae.
+1	Filium	filius	NOUN	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	0	root	_	TokenRange=138:144
+2	quendam	quidam	DET	F1|grn1|casD|gen1|vgr1	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Ind	1	det	_	TokenRange=145:152
+3	Potiti	Potitus	VERB	L2|modM|tem4|grp1|casB|gen1	Aspect=Perf|Case=Gen|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	TokenRange=153:159
+4	presbyteri	presbyterus	NOUN	B1|grn1|casB|gen1	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	3	nmod	_	SpaceAfter=No|TokenRange=160:170
+5	,	,	PUNCT	Punc	_	8	punct	_	TokenRange=170:171
+6	qui	qui	PRON	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	8	nsubj	_	TokenRange=172:175
+7	fuit	sum	AUX	N3|modA|tem4|gen6	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	TokenRange=176:180
+8	uico	uicus	NOUN	B1|grn1|casC|gen1	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Sing	1	acl:relcl	_	TokenRange=181:185
+9	bannauem	bannauis	ADJ	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing	8	amod	_	TokenRange=186:194
+10	taburniae	taburnia	NOUN	A1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	8	nmod	_	SpaceAfter=No|TokenRange=195:204
+11	.	.	PUNCT	Punc	_	1	punct	_	SpacesAfter=\n|TokenRange=204:205
+
+# sent_id = 6
+# text = Uillulam enim prope habuit, ubi ego capturam dedi.
+1	Uillulam	uillula	PROPN	A1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obj	_	TokenRange=206:214
+2	enim	enim	PART	O4	_	4	discourse	_	TokenRange=215:219
+3	prope	prope	ADV	B1|grn1|casG	_	4	advmod	_	TokenRange=220:225
+4	habuit	habeo	VERB	K3|modA|tem4|gen6	Aspect=Perf|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=226:232
+5	,	,	PUNCT	Punc	_	9	punct	_	TokenRange=232:233
+6	ubi	ubi	SCONJ	O4	_	9	mark	_	TokenRange=234:237
+7	ego	ego	PRON	F1|grn1|casA|gen1	Case=Nom|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	TokenRange=238:241
+8	capturam	captura	NOUN	A1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	9	obj	_	TokenRange=242:250
+9	dedi	do	VERB	J3|modA|tem4|gen4	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	SpaceAfter=No|TokenRange=251:255
+10	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=255:256
+
+# sent_id = 7
+# text = Annorum eram tunc fere sedecim.
+1	Annorum	annus	NOUN	B1|grn1|casK|gen1	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	5	nmod	_	TokenRange=257:264
+2	eram	sum	AUX	N3|modA|tem2|gen4	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	TokenRange=265:269
+3	tunc	tunc	ADV	O4	AdvType=Tim	5	advmod:tmod	_	TokenRange=270:274
+4	fere	fere	ADV	O4	_	5	advmod	_	TokenRange=275:279
+5	sedecim	sedecim	NUM	G1	NumForm=Word|NumType=Card	0	root	_	SpaceAfter=No|TokenRange=280:287
+6	.	.	PUNCT	Punc	_	5	punct	_	SpacesAfter=\n|TokenRange=287:288
+
+# sent_id = 8
+# text = Deum enim uerum ignorabam.
+1	Deum	deus	NOUN	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	4	obj	_	TokenRange=289:293
+2	enim	enim	PART	O4	_	4	discourse	_	TokenRange=294:298
+3	uerum	uerus	ADJ	B1|grn1|casD|gen1|vgr1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	1	amod	_	TokenRange=299:304
+4	ignorabam	ignoro	VERB	J2|modM|tem4|grp1|casD|gen2	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=305:314
+5	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=314:315
+
+# sent_id = 9
+# text = Et Hiberione in captiuitate adductus sum cum tot milia hominum.
+1	Et	et	CCONJ	O4	_	5	cc	_	TokenRange=316:318
+2	Hiberione	hiberio	PROPN	C1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurX|NameType=Giv|Number=Sing	5	obl	_	TokenRange=319:328
+3	in	in	ADP	S4	_	4	case	_	TokenRange=329:331
+4	captiuitate	captiuitas	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	5	obl	_	TokenRange=332:343
+5	adductus	adduco	VERB	N2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=344:352
+6	sum	sum	AUX	N3|modA|tem1|gen4	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:pass	_	TokenRange=353:356
+7	cum	cum	ADP	S4|vgr1	_	9	case	_	TokenRange=357:360
+8	tot	tot	DET	G1	NumType=Card|PronType=Dem	9	det	_	TokenRange=361:364
+9	milia	mille	NUM	C1|grn1|casM|gen3	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur|NumForm=Word|NumType=Card	5	obl	_	TokenRange=365:370
+10	hominum	homo	NOUN	C1|grn1|casK|gen1	Case=Gen|Gender=Masc|InflClass=IndEurX|Number=Plur	9	nmod	_	SpaceAfter=No|TokenRange=371:378
+11	.	.	PUNCT	Punc	_	5	punct	_	SpacesAfter=\n|TokenRange=378:379
+
+# sent_id = 10
+# text = Secundum merita nostra, quia a Deo recessimus et praecepta eius non custodiuimus.
+1	Secundum	secundum	ADP	S4	_	2	case	_	TokenRange=380:388
+2	merita	meritum	NOUN	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	0	root	_	TokenRange=389:395
+3	nostra	noster	DET	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	SpaceAfter=No|TokenRange=396:402
+4	,	,	PUNCT	Punc	_	8	punct	_	TokenRange=402:403
+5	quia	quia	SCONJ	O4	_	8	mark	_	TokenRange=404:408
+6	a	ab	ADP	S4|vgr1	_	7	case	_	TokenRange=409:410
+7	Deo	deus	NOUN	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurO|Number=Sing	8	obl:arg	_	TokenRange=411:414
+8	recessimus	recedo	VERB	L3|modA|tem1|gen7	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	TokenRange=415:425
+9	et	et	CCONJ	O4	_	13	cc	_	TokenRange=426:428
+10	praecepta	praeceptum	NOUN	B1|grn1|casM|gen3|vgr1	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	13	obj	_	TokenRange=429:438
+11	eius	is	PRON	F1|grn1|casB|gen1|vgr2	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	10	nmod	_	TokenRange=439:443
+12	non	non	PART	O4	Polarity=Neg	13	advmod:neg	_	TokenRange=444:447
+13	custodiuimus	custodio	VERB	J3|modA|tem4|gen7	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No|TokenRange=448:460
+14	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=460:461
+
+# sent_id = 11
+# text = Et sacerdotibus nostris non oboedientes fuimus, qui nos nostram salutem admonebant.
+1	Et	et	CCONJ	O4	_	5	cc	_	TokenRange=462:464
+2	sacerdotibus	sacerdos	NOUN	C1|grn1|casL|gen1	Case=Dat|Gender=Masc|InflClass=IndEurX|Number=Plur	5	obl:arg	_	TokenRange=465:477
+3	nostris	noster	DET	B1|grn1|casL|gen1	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	2	det	_	TokenRange=478:485
+4	non	non	PART	O4	Polarity=Neg	5	advmod:neg	_	TokenRange=486:489
+5	oboedientes	oboedio	VERB	M2|modD|tem1|grp1|casJ|gen1	Aspect=Imp|Case=Nom|Gender=Masc|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	TokenRange=490:501
+6	fuimus	sum	AUX	N3|modA|tem1|gen7	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No|TokenRange=502:508
+7	,	,	PUNCT	Punc	_	12	punct	_	TokenRange=508:509
+8	qui	qui	PRON	F1|grn1|casJ|gen1	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Plur|PronType=Rel	12	nsubj	_	TokenRange=510:513
+9	nos	nos	PRON	F1|grn1|casM|gen1	Case=Nom|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	12	obj	_	TokenRange=514:517
+10	nostram	noster	DET	A1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	TokenRange=518:525
+11	salutem	salus	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	12	obj	_	TokenRange=526:533
+12	admonebant	admoneo	VERB	K3|modA|tem2|gen9	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	SpaceAfter=No|TokenRange=534:544
+13	.	.	PUNCT	Punc	_	5	punct	_	SpacesAfter=\n|TokenRange=544:545
+
+# sent_id = 12
+# text = Et Dominus induxit super nos iram animationis suae et dispersit nos in gentibus multis etiam usque ad ultimum terrae.
+1	Et	et	CCONJ	O4	_	3	cc	_	TokenRange=546:548
+2	Dominus	dominus	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	3	nsubj	_	TokenRange=549:556
+3	induxit	induco	VERB	N3|modA|tem4|gen6	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=557:564
+4	super	super	ADP	S4	_	5	case	_	TokenRange=565:570
+5	nos	nos	PRON	F1|grn1|casM|gen1	Case=Acc|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	3	obl	_	TokenRange=571:574
+6	iram	ira	NOUN	A1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	3	obj	_	TokenRange=575:579
+7	animationis	animatio	NOUN	C1|grn1|casB|gen2	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	6	nmod	_	TokenRange=580:591
+8	suae	suus	DET	A1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	TokenRange=592:596
+9	et	et	CCONJ	O4	_	10	cc	_	TokenRange=597:599
+10	dispersit	dispergo	VERB	L3|modA|tem4|gen6	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=600:609
+11	nos	nos	PRON	F1|grn1|casM|gen1	Case=Acc|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	10	obj	_	TokenRange=610:613
+12	in	in	ADP	S4	_	13	case	_	TokenRange=614:616
+13	gentibus	gens	NOUN	C1|grn1|casO|gen2	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Plur	10	obl	_	TokenRange=617:625
+14	multis	multus	DET	A1|grn1|casO|gen2	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Plur|NumType=Card|PronType=Ind	13	det	_	TokenRange=626:632
+15	etiam	etiam	ADV	O4|vgr1	Compound=Yes	18	advmod:emph	_	TokenRange=633:638
+16	usque	usque	ADP	S4	_	18	case	_	TokenRange=639:644
+17	ad	ad	ADP	S4	_	18	case	_	TokenRange=645:647
+18	ultimum	ultimus	ADJ	B1|grn3|casD|gen3	Case=Acc|Degree=Abs|Gender=Neut|InflClass=IndEurO|Number=Sing	10	obl	_	TokenRange=648:655
+19	terrae	terra	NOUN	A1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing	18	nmod	_	SpaceAfter=No|TokenRange=656:662
+20	.	.	PUNCT	Punc	_	3	punct	_	SpacesAfter=\n|TokenRange=662:663
+
+# sent_id = 13
+# text = Ubi nunc paruitas mea esse uidetur inter alienigenas.
+1	Ubi	ubi	ADV	O4	_	6	advmod:lmod	_	TokenRange=664:667
+2	nunc	nunc	ADV	O4	AdvType=Tim	6	advmod:tmod	_	TokenRange=668:672
+3	paruitas	paruitas	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	6	nsubj:pass	_	TokenRange=673:681
+4	mea	meus	DET	F1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	TokenRange=682:685
+5	esse	sum	AUX	N3|modH|tem1	Aspect=Imp|InflClass=LatAnom|VerbForm=Inf	6	xcomp	_	TokenRange=686:690
+6	uidetur	uideo	VERB	K3|modJ|tem1|gen6|vgr1	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	TokenRange=691:698
+7	inter	inter	ADP	S4	_	8	case	_	TokenRange=699:704
+8	alienigenas	alienigena	NOUN	A1|grn1|casM|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Plur	6	obl	_	SpaceAfter=No|TokenRange=705:716
+9	.	.	PUNCT	Punc	_	6	punct	_	SpacesAfter=\n|TokenRange=716:717
+
+# sent_id = 14
+# text = Et ibi Dominus aperuit sensum incredulitatis meae.
+1	Et	et	CCONJ	O4	_	4	cc	_	TokenRange=718:720
+2	ibi	ibi	ADV	O4	AdvType=Loc	4	advmod:lmod	_	TokenRange=721:724
+3	Dominus	dominus	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	4	nsubj	_	TokenRange=725:732
+4	aperuit	aperio	VERB	K3|modA|tem4|gen6	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=733:740
+5	sensum	sensus	NOUN	D1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing	4	obj	_	TokenRange=741:747
+6	incredulitatis	incredulitas	NOUN	C1|grn1|casB|gen2	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	5	nmod	_	TokenRange=748:762
+7	meae	meus	DET	A1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	6	det	_	SpaceAfter=No|TokenRange=763:767
+8	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=767:768
+
+# sent_id = 15
+# text = Ut uel sero rememorarem delicta mea.
+1	Ut	ut	SCONJ	O4|vgr1	PronType=Rel	4	mark	_	TokenRange=769:771
+2	uel	uel	CCONJ	O4|vgr1	_	4	cc	_	TokenRange=772:775
+3	sero	sero	ADV	B1|grn1|casG	_	4	advmod	_	TokenRange=776:780
+4	rememorarem	rememoro	VERB	J3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=781:792
+5	delicta	delinquo	NOUN	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	4	obj	_	TokenRange=793:800
+6	mea	meus	DET	F1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	5	det	_	SpaceAfter=No|TokenRange=801:804
+7	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=804:805
+
+# sent_id = 16
+# text = Et ut conuerterem toto corde ad Dominum Deum meum.
+1	Et	et	CCONJ	O4	_	3	cc	_	TokenRange=806:808
+2	ut	ut	SCONJ	O4|vgr1	PronType=Rel	3	mark	_	TokenRange=809:811
+3	conuerterem	conuerto	VERB	L3|modB|tem2|gen6	Aspect=Imp|InflClass=LatX|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=812:823
+4	toto	totus	DET	F1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=LatPron|Number=Sing|PronType=Tot	5	det	_	TokenRange=824:828
+5	corde	cor	NOUN	C1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing	3	obl	_	TokenRange=829:834
+6	ad	ad	ADP	S4	_	7	case	_	TokenRange=835:837
+7	Dominum	dominus	NOUN	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	3	obl:arg	_	TokenRange=838:845
+8	Deum	deus	NOUN	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	7	flat	_	TokenRange=846:850
+9	meum	meus	DET	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	SpaceAfter=No|TokenRange=851:855
+10	.	.	PUNCT	Punc	_	3	punct	_	SpacesAfter=\n|TokenRange=855:856
+
+# sent_id = 17
+# text = Qui respexit humilitatem meam et misertus est adolescentiae et ignorantiae meae.
+1	Qui	qui	PRON	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	2	nsubj	_	TokenRange=857:860
+2	respexit	respicio	VERB	L3|modA|tem4|gen6	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=861:869
+3	humilitatem	humilitas	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	2	obj	_	TokenRange=870:881
+4	meam	meus	DET	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	TokenRange=882:886
+5	et	et	CCONJ	O4	_	6	cc	_	TokenRange=887:889
+6	misertus	misereor	VERB	L2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	2	conj	_	TokenRange=890:898
+7	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	TokenRange=899:902
+8	adolescentiae	adolescentia	NOUN	A1|grn1|casC|gen2|vgr1	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	6	obl:arg	_	TokenRange=903:916
+9	et	et	CCONJ	O4	_	10	cc	_	TokenRange=917:919
+10	ignorantiae	ignorantia	NOUN	A1|grn1|casC|gen2|vgr1	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	8	conj	_	TokenRange=920:931
+11	meae	meus	DET	A1|grn1|casC|gen2|vgr1	Case=Dat|Gender=Fem|InflClass=IndEurA|Number=Sing	10	det	_	SpaceAfter=No|TokenRange=932:936
+12	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=936:937
+
+# sent_id = 18
+# text = Et custodiuit me antequam scirem eum et antequam saperem uel distinguerem inter bonum et malum.
+1	Et	et	CCONJ	O4	_	2	cc	_	TokenRange=938:940
+2	custodiuit	custodio	VERB	M3|modA|tem4|gen6	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=941:951
+3	me	ego	PRON	F1|grn1|casD|gen1	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	2	obj	_	TokenRange=952:954
+4	antequam	antequam	SCONJ	O4	_	5	mark	_	TokenRange=955:963
+5	scirem	scio	VERB	M3|modB|tem2|gen6	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	TokenRange=964:970
+6	eum	is	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	5	obj	_	TokenRange=971:974
+7	et	et	CCONJ	O4	_	9	cc	_	TokenRange=975:977
+8	antequam	antequam	SCONJ	O4	_	9	mark	_	TokenRange=978:986
+9	saperem	sapio	VERB	C1|grn1|casD|gen2	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=987:994
+10	uel	uel	CCONJ	O4|vgr1	_	11	cc	_	TokenRange=995:998
+11	distinguerem	distinguo	VERB	L3|modB|tem2|gen6	Aspect=Imp|InflClass=LatX|VerbForm=Inf|Voice=Act	9	conj	_	TokenRange=999:1011
+12	inter	inter	ADP	S4	_	13	case	_	TokenRange=1012:1017
+13	bonum	bonum	NOUN	B1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	9	obl:arg	_	TokenRange=1018:1023
+14	et	et	CCONJ	O4	_	15	cc	_	TokenRange=1024:1026
+15	malum	malum	NOUN	B1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	13	conj	_	SpaceAfter=No|TokenRange=1027:1032
+16	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=1032:1033
+
+# sent_id = 19
+# text = Et muniuit me et consolatus est me ut pater filium.
+1	Et	et	CCONJ	O4	_	2	cc	_	TokenRange=1034:1036
+2	muniuit	munio	VERB	M3|modA|tem4|gen6	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1037:1044
+3	me	ego	PRON	F1|grn1|casD|gen1	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	2	obj	_	TokenRange=1045:1047
+4	et	et	CCONJ	O4	_	5	cc	_	TokenRange=1048:1050
+5	consolatus	consolor	VERB	J2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	2	conj	_	TokenRange=1051:1061
+6	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	TokenRange=1062:1065
+7	me	ego	PRON	F1|grn1|casD|gen1	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	5	obj	_	TokenRange=1066:1068
+8	ut	ut	ADV	O4|vgr1	PronType=Rel	9	advmod	_	TokenRange=1069:1071
+9	pater	pater	NOUN	C1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	5	xcomp	_	TokenRange=1072:1077
+10	filium	filius	NOUN	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	9	orphan	_	SpaceAfter=No|TokenRange=1078:1084
+11	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=1084:1085
+
+# sent_id = 20
+# text = Unde autem tacere non possum, neque expedit quidem, tanta beneficia et tantam gratiam quam mihi Dominus praestare dignatus est in terra captiuitatis meae.
+1	Unde	unde	ADV	O4	AdvType=Loc|PronType=Rel	5	advmod:lmod	_	TokenRange=1086:1090
+2	autem	autem	PART	O4	_	5	discourse	_	TokenRange=1091:1096
+3	tacere	taceo	VERB	K3|modH|tem1	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Act	5	xcomp	_	TokenRange=1097:1103
+4	non	non	PART	O4	Polarity=Neg	5	advmod:neg	_	TokenRange=1104:1107
+5	possum	possum	VERB	N3|modA|tem1|gen4	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=1108:1114
+6	,	,	PUNCT	Punc	_	8	punct	_	TokenRange=1114:1115
+7	neque	neque	CCONJ	O4	Polarity=Neg	8	cc	_	TokenRange=1116:1121
+8	expedit	expedio	VERB	M3|modA|tem1|gen6	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=1122:1129
+9	quidem	quidem	PART	O4	_	8	discourse	_	SpaceAfter=No|TokenRange=1130:1136
+10	,	,	PUNCT	Punc	_	12	punct	_	TokenRange=1136:1137
+11	tanta	tantus	DET	B1|grn1|casM|gen3	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Card|PronType=Dem	12	det	_	TokenRange=1138:1143
+12	beneficia	beneficium	NOUN	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur	8	obj	_	TokenRange=1144:1153
+13	et	et	CCONJ	O4	_	15	cc	_	TokenRange=1154:1156
+14	tantam	tantus	DET	A1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing|NumType=Card|PronType=Dem	15	det	_	TokenRange=1157:1163
+15	gratiam	gratia	NOUN	A1|grn1|casD|gen2|vgr1	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	12	conj	_	TokenRange=1164:1171
+16	quam	qui	PRON	F1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	19	obj	_	TokenRange=1172:1176
+17	mihi	ego	PRON	F1|grn1|casC|gen1|vgr1	Case=Dat|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	19	obl:arg	_	TokenRange=1177:1181
+18	Dominus	dominus	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	20	nsubj:pass	_	TokenRange=1182:1189
+19	praestare	praesto	VERB	J3|modH|tem1|vgr1	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	20	xcomp	_	TokenRange=1190:1199
+20	dignatus	dignor	VERB	J2|modM|tem4|grp1|casA|gen1	Aspect=Perf|Case=Nom|Gender=Masc|InflClass=LatA|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	15	acl:relcl	_	TokenRange=1200:1208
+21	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	TokenRange=1209:1212
+22	in	in	ADP	S4	_	23	case	_	TokenRange=1213:1215
+23	terra	terra	NOUN	A1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	20	obl	_	TokenRange=1216:1221
+24	captiuitatis	captiuitas	NOUN	C1|grn1|casB|gen2	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	23	nmod	_	TokenRange=1222:1234
+25	meae	meus	DET	A1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	24	det	_	SpaceAfter=No|TokenRange=1235:1239
+26	.	.	PUNCT	Punc	_	5	punct	_	SpacesAfter=\n|TokenRange=1239:1240
+
+# sent_id = 21
+# text = Quia haec est retributio nostra, ut post correptionem uel agnitionem Dei exaltare et confiteri mirabilia eius coram omni natione quae est sub omni caelo.
+1	Quia	quia	SCONJ	O4	_	2	mark	_	TokenRange=1241:1245
+2	haec	hic	DET	F1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	0	root	_	TokenRange=1246:1250
+3	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	TokenRange=1251:1254
+4	retributio	retributio	NOUN	C1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|InflClass=IndEurX|Number=Sing	2	nsubj	_	TokenRange=1255:1265
+5	nostra	noster	DET	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	SpaceAfter=No|TokenRange=1266:1272
+6	,	,	PUNCT	Punc	_	13	punct	_	TokenRange=1272:1273
+7	ut	ut	SCONJ	O4|vgr1	PronType=Rel	13	mark	_	TokenRange=1274:1276
+8	post	post	ADP	S4	_	9	case	_	TokenRange=1277:1281
+9	correptionem	correptio	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	13	obl	_	TokenRange=1282:1294
+10	uel	uel	CCONJ	O4|vgr1	_	11	cc	_	TokenRange=1295:1298
+11	agnitionem	agnitio	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	9	conj	_	TokenRange=1299:1309
+12	Dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	9	nmod	_	TokenRange=1310:1313
+13	exaltare	exalto	VERB	J3|modH|tem1	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	2	csubj	_	TokenRange=1314:1322
+14	et	et	CCONJ	O4	_	15	cc	_	TokenRange=1323:1325
+15	confiteri	confiteor	VERB	K3|modQ|tem1	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Pass	13	conj	_	TokenRange=1326:1335
+16	mirabilia	mirabilis	ADJ	C1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur	13	obj	_	TokenRange=1336:1345
+17	eius	is	PRON	F1|grn1|casB|gen1|vgr2	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	16	nmod	_	TokenRange=1346:1350
+18	coram	coram	ADP	S4	_	20	case	_	TokenRange=1351:1356
+19	omni	omnis	DET	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	20	det	_	TokenRange=1357:1361
+20	natione	natio	NOUN	C1|grn1|casF|gen2|comH|vgr1	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	16	nmod	_	TokenRange=1362:1369
+21	quae	qui	PRON	F1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Rel	25	nsubj	_	TokenRange=1370:1374
+22	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	TokenRange=1375:1378
+23	sub	sub	ADP	S4	_	25	case	_	TokenRange=1379:1382
+24	omni	omnis	DET	C1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	25	det	_	TokenRange=1383:1387
+25	caelo	caelum	NOUN	B1|grn1|casF|gen3|vgr1	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	20	acl:relcl	_	SpaceAfter=No|TokenRange=1388:1393
+26	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=1393:1394
+
+# sent_id = 22
+# text = Quia non est alius Deus nec umquam fuit nec ante nec erit post haec praeter Deum Patrem ingenitum, sine principio, a quo est omne principium, omnia tenentem, ut didicimus.
+1	Quia	quia	SCONJ	O4	_	4	mark	_	TokenRange=1395:1399
+2	non	non	PART	O4	Polarity=Neg	4	advmod:neg	_	TokenRange=1400:1403
+3	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	TokenRange=1404:1407
+4	alius	alius	DET	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Con	0	root	_	TokenRange=1408:1413
+5	Deus	deus	NOUN	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	4	nsubj	_	TokenRange=1414:1418
+6	nec	nec	CCONJ	O4	_	7	mark	_	TokenRange=1419:1422
+7	umquam	umquam	ADV	O4|vgr1	Compound=Yes	4	advmod	_	TokenRange=1423:1429
+8	fuit	sum	AUX	N3|modA|tem4|gen6	Aspect=Perf|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	TokenRange=1430:1434
+9	nec	nec	CCONJ	O4	_	10	cc	_	TokenRange=1435:1438
+10	ante	ante	ADV	S4	_	14	advmod:tmod	_	TokenRange=1439:1443
+11	nec	nec	CCONJ	O4	_	14	cc	_	TokenRange=1444:1447
+12	erit	sum	AUX	N3|modA|tem3|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	cop	_	TokenRange=1448:1452
+13	post	post	ADP	S4	_	14	case	_	TokenRange=1453:1457
+14	haec	hic	DET	F1|grn1|casM|gen3|vgr1	Case=Acc|Gender=Neut|InflClass=LatPron|Number=Plur|PronType=Dem	7	conj	_	TokenRange=1458:1462
+15	praeter	praeter	ADP	S4|vgr1	_	16	case	_	TokenRange=1463:1470
+16	Deum	deus	NOUN	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	14	obl	_	TokenRange=1471:1475
+17	Patrem	pater	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	16	nsubj	_	TokenRange=1476:1482
+18	ingenitum	ingenitus	ADJ	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	17	amod	_	SpaceAfter=No|TokenRange=1483:1492
+19	,	,	PUNCT	Punc	_	21	punct	_	TokenRange=1492:1493
+20	sine	sine	ADP	S4	_	21	case	_	TokenRange=1494:1498
+21	principio	principium	NOUN	B1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	14	obl	_	SpaceAfter=No|TokenRange=1499:1508
+22	,	,	PUNCT	Punc	_	25	punct	_	TokenRange=1508:1509
+23	a	ab	ADP	S4|vgr1	_	24	case	_	TokenRange=1510:1511
+24	quo	qui	PRON	F1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	25	obl:arg	_	TokenRange=1512:1515
+25	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	TokenRange=1516:1519
+26	omne	omnis	DET	C1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	27	det	_	TokenRange=1520:1524
+27	principium	principium	NOUN	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	25	nsubj	_	SpaceAfter=No|TokenRange=1525:1535
+28	,	,	PUNCT	Punc	_	30	punct	_	TokenRange=1535:1536
+29	omnia	omnis	DET	C1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Plur|PronType=Tot	30	obj	_	TokenRange=1537:1542
+30	tenentem	teneo	VERB	K2|modD|tem1|grp1|casD|gen2	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatE|InflClass[nominal]=IndEurI|Number=Sing|VerbForm=Part|Voice=Act	27	acl	_	SpaceAfter=No|TokenRange=1543:1551
+31	,	,	PUNCT	Punc	_	33	punct	_	TokenRange=1551:1552
+32	ut	ut	SCONJ	O4|vgr1	PronType=Rel	33	mark	_	TokenRange=1553:1555
+33	didicimus	disco	VERB	N3|modA|tem4|gen7	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	30	advcl:cmp	_	SpaceAfter=No|TokenRange=1556:1565
+34	.	.	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n|TokenRange=1565:1566
+
+# sent_id = 23
+# text = Et huius filium Iesum Christum, quem cum Patre scilicet semper fuisse testamur, ante originem saeculi spiritaliter apud Patrem.
+1	Et	et	CCONJ	O4	_	3	cc	_	TokenRange=1567:1569
+2	huius	hic	DET	F1|grn1|casB|gen1|vgr2	Case=Gen|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	3	nmod	_	TokenRange=1570:1575
+3	filium	filius	NOUN	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	0	root	_	TokenRange=1576:1582
+4	Iesum	Iesus	PROPN	F1|grn1|casD|gen1|vgr1	Case=Acc|Gender=Masc|InflClass=IndEurU|NameType=Giv|Number=Sing	3	flat	_	TokenRange=1583:1588
+5	Christum	Christus	PROPN	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	4	flat	_	SpaceAfter=No|TokenRange=1589:1597
+6	,	,	PUNCT	Punc	_	13	punct	_	TokenRange=1597:1598
+7	quem	qui	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	13	obj	_	TokenRange=1599:1603
+8	cum	cum	ADP	S4|vgr1	_	9	case	_	TokenRange=1604:1607
+9	Patre	pater	NOUN	C1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurX|Number=Sing	13	obl	_	TokenRange=1608:1613
+10	scilicet	scilicet	CCONJ	O4	Compound=Yes	13	cc	_	TokenRange=1614:1622
+11	semper	semper	ADV	O4	AdvType=Tim	13	advmod:tmod	_	TokenRange=1623:1629
+12	fuisse	sum	AUX	N3|modH|tem4	Aspect=Perf|InflClass=LatAnom|VerbForm=Inf	9	cop	_	TokenRange=1630:1636
+13	testamur	testor	VERB	J3|modJ|tem1|gen7	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	SpaceAfter=No|TokenRange=1637:1645
+14	,	,	PUNCT	Punc	_	16	punct	_	TokenRange=1645:1646
+15	ante	ante	ADP	S4	_	16	case	_	TokenRange=1647:1651
+16	originem	origo	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	3	obl	_	TokenRange=1652:1660
+17	saeculi	saeculum	NOUN	B1|grn1|casB|gen3|vgr1	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	16	nmod	_	TokenRange=1661:1668
+18	spiritaliter	spiritaliter	ADV	C1|grn1|casG	_	16	advmod	_	TokenRange=1669:1681
+19	apud	apud	ADP	S4|vgr1	_	20	case	_	TokenRange=1682:1686
+20	Patrem	pater	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	16	nmod	_	SpaceAfter=No|TokenRange=1687:1693
+21	.	.	PUNCT	Punc	_	3	punct	_	SpacesAfter=\n|TokenRange=1693:1694
+
+# sent_id = 24
+# text = Et inenarrabiliter genitum ante omne principium.
+1	Et	et	CCONJ	O4	_	3	cc	_	TokenRange=1695:1697
+2	inenarrabiliter	inenarrabiliter	ADV	C1|grn1|casG	_	3	advmod	_	TokenRange=1698:1713
+3	genitum	gigno	VERB	L2|modM|tem4|grp1|casA|gen3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=1714:1721
+4	ante	ante	ADP	S4	_	6	case	_	TokenRange=1722:1726
+5	omne	omnis	DET	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	6	det	_	TokenRange=1727:1731
+6	principium	principium	NOUN	B1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=1732:1742
+7	.	.	PUNCT	Punc	_	3	punct	_	SpacesAfter=\n|TokenRange=1742:1743
+
+# sent_id = 25
+# text = Et per ipsum facta sunt uisibilia et inuisibilia.
+1	Et	et	CCONJ	O4	_	4	cc	_	TokenRange=1744:1746
+2	per	per	ADP	S4	_	3	case	_	TokenRange=1747:1750
+3	ipsum	ipse	DET	F1|grn1|casD|gen1	Case=Acc|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	4	obl	_	TokenRange=1751:1756
+4	facta	facio	VERB	N2|modM|tem4|grp1|casJ|gen3	Aspect=Perf|Case=Nom|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=1757:1762
+5	sunt	sum	AUX	N3|modA|tem1|gen9	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	TokenRange=1763:1767
+6	uisibilia	uisibilis	ADJ	C1|grn1|casJ|gen3|vgr1	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	4	nsubj:pass	_	TokenRange=1768:1777
+7	et	et	CCONJ	O4	_	8	cc	_	TokenRange=1778:1780
+8	inuisibilia	inuisibilis	ADJ	C1|grn1|casJ|gen3	Case=Nom|Gender=Neut|InflClass=IndEurI|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=1781:1792
+9	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=1792:1793
+
+# sent_id = 26
+# text = Hominem factum, morte deuicta in caelis ad Patrem receptum.
+1	Hominem	homo	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	2	nsubj:pass	_	TokenRange=1794:1801
+2	factum	facio	VERB	N2|modM|tem4|grp1|casD|gen1	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|TokenRange=1802:1808
+3	,	,	PUNCT	Punc	_	5	punct	_	TokenRange=1808:1809
+4	morte	mors	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	5	nsubj:pass	_	TokenRange=1810:1815
+5	deuicta	deuinco	VERB	L2|modM|tem4|grp1|casF|gen2	Aspect=Perf|Case=Abl|Gender=Fem|InflClass=LatX|InflClass[nominal]=IndEurA|Number=Sing|VerbForm=Part|Voice=Pass	2	advcl:abs	_	TokenRange=1816:1823
+6	in	in	ADP	S4	_	7	case	_	TokenRange=1824:1826
+7	caelis	caelum	NOUN	B1|grn1|casO|gen3|vgr1	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Plur	5	obl	_	TokenRange=1827:1833
+8	ad	ad	ADP	S4	_	9	case	_	TokenRange=1834:1836
+9	Patrem	pater	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	10	obl:arg	_	TokenRange=1837:1843
+10	receptum	recipio	VERB	L2|modM|tem4|grp1|casD|gen1	Aspect=Perf|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	SpaceAfter=No|TokenRange=1844:1852
+11	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=1852:1853
+
+# sent_id = 27
+# text = Et dedit illi omnem potestatem super omne nomen caelestium et terrestrium et infernorum.
+1	Et	et	CCONJ	O4	_	2	cc	_	TokenRange=1854:1856
+2	dedit	do	VERB	J3|modA|tem4|gen6	Aspect=Perf|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1857:1862
+3	illi	ille	DET	F1|grn1|casC|gen1	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	2	obl:arg	_	TokenRange=1863:1867
+4	omnem	omnis	DET	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	5	det	_	TokenRange=1868:1873
+5	potestatem	potestas	NOUN	C1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurX|Number=Sing	2	obj	_	TokenRange=1874:1884
+6	super	super	ADP	S4	_	8	case	_	TokenRange=1885:1890
+7	omne	omnis	DET	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurI|Number=Sing|PronType=Tot	8	det	_	TokenRange=1891:1895
+8	nomen	nomen	NOUN	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	2	obl	_	TokenRange=1896:1901
+9	caelestium	caelestis	ADJ	C1|grn1|casK|gen3|vgr1	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur	8	nmod	_	TokenRange=1902:1912
+10	et	et	CCONJ	O4	_	11	cc	_	TokenRange=1913:1915
+11	terrestrium	terrestris	ADJ	C1|grn1|casK|gen3	Case=Gen|Gender=Neut|InflClass=IndEurI|Number=Plur	9	conj	_	TokenRange=1916:1927
+12	et	et	CCONJ	O4	_	13	cc	_	TokenRange=1928:1930
+13	infernorum	infernus	ADJ	B1|grn1|casK|gen3	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Plur	9	conj	_	SpaceAfter=No|TokenRange=1931:1941
+14	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=1941:1942
+
+# sent_id = 28
+# text = Et omnis lingua confiteatur ei quia Dominus et Deus est Iesus Christus, quem credimus et expectamus aduentum ipsius mox futurum.
+1	Et	et	CCONJ	O4	_	4	cc	_	TokenRange=1943:1945
+2	omnis	omnis	DET	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing|PronType=Tot	3	det	_	TokenRange=1946:1951
+3	lingua	lingua	NOUN	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	4	nsubj	_	TokenRange=1952:1958
+4	confiteatur	confiteor	VERB	K3|modK|tem1|gen6	Aspect=Imp|InflClass=LatE|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	TokenRange=1959:1970
+5	ei	is	PRON	F1|grn1|casC|gen2	Case=Dat|Gender=Masc|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	4	obl:arg	_	TokenRange=1971:1973
+6	quia	quia	SCONJ	O4	_	11	mark	_	TokenRange=1974:1978
+7	Dominus	dominus	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	11	nsubj	_	TokenRange=1979:1986
+8	et	et	CCONJ	O4	_	9	cc	_	TokenRange=1987:1989
+9	Deus	deus	NOUN	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	7	conj	_	TokenRange=1990:1994
+10	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	TokenRange=1995:1998
+11	Iesus	iesus	PROPN	F1|grn1|casA|gen1|vgr1	Case=Nom|Gender=Masc|InflClass=IndEurU|NameType=Giv|Number=Sing	4	advcl	_	TokenRange=1999:2004
+12	Christus	christus	PROPN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	11	flat	_	SpaceAfter=No|TokenRange=2005:2013
+13	,	,	PUNCT	Punc	_	15	punct	_	TokenRange=2013:2014
+14	quem	qui	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	15	obj	_	TokenRange=2015:2019
+15	credimus	credo	VERB	L3|modA|tem1|gen7	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	TokenRange=2020:2028
+16	et	et	CCONJ	O4	_	17	cc	_	TokenRange=2029:2031
+17	expectamus	exspecto	VERB	J3|modA|tem1|gen7	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	TokenRange=2032:2042
+18	aduentum	aduentus	NOUN	D1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing	17	obj	_	TokenRange=2043:2051
+19	ipsius	ipse	DET	F1|grn1|casB|gen1	Case=Gen|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	18	nmod	_	TokenRange=2052:2058
+20	mox	mox	ADV	O4	_	21	advmod	_	TokenRange=2059:2062
+21	futurum	futurus	AUX	B1|grn1|casD|gen1	Aspect=Prosp|Case=Acc|Gender=Neut|InflClass=LatAnom|InflClass[nominal]=IndEurO|Number=Sing|VerbForm=Part	18	cop	_	SpaceAfter=No|TokenRange=2063:2070
+22	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=2070:2071
+
+# sent_id = 29
+# text = Iudex uiuorum atque mortuorum, qui reddet unicuique secundum facta sua.
+1	Iudex	iudex	NOUN	C1|grn1|casA|gen1|vgr1	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Sing	0	root	_	TokenRange=2072:2077
+2	uiuorum	uiuus	ADJ	B1|grn1|casK|gen1|vgr1	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Plur	1	nmod	_	TokenRange=2078:2085
+3	atque	atque	CCONJ	O4	_	4	cc	_	TokenRange=2086:2091
+4	mortuorum	morior	VERB	L2|modM|tem4|grp1|casK|gen1	Aspect=Perf|Case=Gen|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	2	conj	_	SpaceAfter=No|TokenRange=2092:2101
+5	,	,	PUNCT	Punc	_	7	punct	_	TokenRange=2101:2102
+6	qui	qui	PRON	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	7	nsubj	_	TokenRange=2103:2106
+7	reddet	reddo	VERB	L3|modA|tem3|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	acl:relcl	_	TokenRange=2107:2113
+8	unicuique	unusquisque	DET	F1|grn1|casC|gen1	Case=Dat|Compound=Yes|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Tot	7	obl:arg	_	TokenRange=2114:2123
+9	secundum	secundum	ADP	S4	_	10	case	_	TokenRange=2124:2132
+10	facta	facio	VERB	N2|modM|tem4|grp1|casM|gen3	Aspect=Perf|Case=Acc|Gender=Neut|InflClass=LatI2|InflClass[nominal]=IndEurO|Number=Plur|VerbForm=Part|Voice=Pass	7	obl	_	TokenRange=2133:2138
+11	sua	suus	DET	B1|grn1|casM|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Plur|Person[psor]=3|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	SpaceAfter=No|TokenRange=2139:2142
+12	.	.	PUNCT	Punc	_	1	punct	_	SpacesAfter=\n|TokenRange=2142:2143
+
+# sent_id = 30
+# text = Et effudit in nobis habunde Spiritum Sanctum, donum et pignus inmortalitatis, qui facit credentes et oboedientes, ut sint filii Dei et coheredes Christi.
+1	Et	et	CCONJ	O4	_	2	cc	_	TokenRange=2144:2146
+2	effudit	effundo	VERB	L3|modA|tem4|gen6	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2147:2154
+3	in	in	ADP	S4	_	4	case	_	TokenRange=2155:2157
+4	nobis	nos	PRON	F1|grn1|casO|gen1	Case=Abl|InflClass=LatAnom|Number=Plur|Person=1|PronType=Prs	2	obl	_	TokenRange=2158:2163
+5	habunde	habunde	ADV	B1|grn1|casG|vgr1	_	2	advmod	_	TokenRange=2164:2171
+6	Spiritum	spiritus	NOUN	D1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurU|Number=Sing	2	obj	_	TokenRange=2172:2180
+7	Sanctum	sanctus	ADJ	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	6	amod	_	SpaceAfter=No|TokenRange=2181:2188
+8	,	,	PUNCT	Punc	_	9	punct	_	TokenRange=2188:2189
+9	donum	donum	NOUN	B1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurO|Number=Sing	6	conj	_	TokenRange=2190:2195
+10	et	et	CCONJ	O4	_	11	cc	_	TokenRange=2196:2198
+11	pignus	pignus	NOUN	C1|grn1|casD|gen3	Case=Acc|Gender=Neut|InflClass=IndEurX|Number=Sing	9	conj	_	TokenRange=2199:2205
+12	inmortalitatis	inmortalitas	NOUN	C1|grn1|casB|gen2	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	9	nmod	_	SpaceAfter=No|TokenRange=2206:2220
+13	,	,	PUNCT	Punc	_	15	punct	_	TokenRange=2220:2221
+14	qui	qui	PRON	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	15	nsubj	_	TokenRange=2222:2225
+15	facit	facio	VERB	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatI2|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	TokenRange=2226:2231
+16	credentes	credo	VERB	L2|modD|tem1|grp1|casM|gen1	Aspect=Imp|Case=Acc|Gender=Masc|InflClass=LatX|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	15	xcomp	_	TokenRange=2232:2241
+17	et	et	CCONJ	O4	_	18	cc	_	TokenRange=2242:2244
+18	oboedientes	oboedio	VERB	M2|modD|tem1|grp1|casJ|gen1	Aspect=Imp|Case=Nom|Gender=Masc|InflClass[nominal]=IndEurI|Number=Plur|VerbForm=Part|Voice=Act	16	conj	_	SpaceAfter=No|TokenRange=2245:2256
+19	,	,	PUNCT	Punc	_	22	punct	_	TokenRange=2256:2257
+20	ut	ut	SCONJ	O4|vgr1	PronType=Rel	22	mark	_	TokenRange=2258:2260
+21	sint	sum	AUX	N3|modB|tem1|gen9	Aspect=Imp|InflClass=LatAnom|Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	TokenRange=2261:2265
+22	filii	filius	NOUN	B1|grn1|casJ|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Plur	15	advcl	_	TokenRange=2266:2271
+23	Dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	22	nmod	_	TokenRange=2272:2275
+24	et	et	CCONJ	O4	_	25	cc	_	TokenRange=2276:2278
+25	coheredes	coheres	NOUN	C1|grn1|casJ|gen1	Case=Nom|Gender=Masc|InflClass=IndEurX|Number=Plur	22	conj	_	TokenRange=2279:2288
+26	Christi	Christus	PROPN	B1|grn1|casB|gen1	Case=Gen|Gender=Masc|InflClass=IndEurO|NameType=Giv|Number=Sing	25	nmod	_	SpaceAfter=No|TokenRange=2289:2296
+27	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=2296:2297
+
+# sent_id = 31
+# text = Quem confitemur et adoramus unum Deum in trinitate sacri nominis.
+1	Quem	qui	PRON	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Rel	2	obj	_	TokenRange=2298:2302
+2	confitemur	confiteor	VERB	K3|modJ|tem1|gen7	Aspect=Imp|InflClass=LatE|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	TokenRange=2303:2313
+3	et	et	CCONJ	O4	_	4	cc	_	TokenRange=2314:2316
+4	adoramus	adoro	VERB	J3|modA|tem1|gen7	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=2317:2325
+5	unum	unus	DET	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=LatPron|Number=Sing|NumType=Card|NumValue=1|PronType=Ind	6	det	_	TokenRange=2326:2330
+6	Deum	deus	NOUN	F1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurO|Number=Sing	4	obj	_	TokenRange=2331:2335
+7	in	in	ADP	S4	_	8	case	_	TokenRange=2336:2338
+8	trinitate	trinitas	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	2	obl	_	TokenRange=2339:2348
+9	sacri	sacer	ADJ	B1|grn1|casB|gen3	Case=Gen|Gender=Neut|InflClass=IndEurO|Number=Sing	10	amod	_	TokenRange=2349:2354
+10	nominis	nomen	NOUN	C1|grn1|casB|gen3	Case=Gen|Gender=Neut|InflClass=IndEurX|Number=Sing	8	nmod	_	SpaceAfter=No|TokenRange=2355:2362
+11	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=2362:2363
+
+# sent_id = 32
+# text = Ipse enim dixit per prophetam:
+1	Ipse	ipse	DET	F1|grn1|casA|gen1	Case=Nom|Form=Emp|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	3	nsubj	_	TokenRange=2364:2368
+2	enim	enim	PART	O4	_	3	discourse	_	TokenRange=2369:2373
+3	dixit	dico	VERB	N3|modA|tem4|gen6	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2374:2379
+4	per	per	ADP	S4	_	5	case	_	TokenRange=2380:2383
+5	prophetam	propheta	NOUN	B1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurA|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=2384:2393
+6	:	:	PUNCT	Punc	_	3	punct	_	TokenRange=2393:2394
+
+# sent_id = 33
+# text = Inuoca me in die tribulationis tuae et liberabo te et magnificabis me.
+1	Inuoca	inuoco	VERB	J3|modC|tem1|gen5	Aspect=Imp|InflClass=LatA|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2395:2401
+2	me	ego	PRON	F1|grn1|casD|gen1	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	1	obj	_	TokenRange=2402:2404
+3	in	in	ADP	S4	_	4	case	_	TokenRange=2405:2407
+4	die	dies	NOUN	E1|grn1|casF|gen1	Case=Abl|Gender=Masc|InflClass=IndEurE|Number=Sing	1	obl	_	TokenRange=2408:2411
+5	tribulationis	tribulatio	NOUN	C1|grn1|casB|gen2	Case=Gen|Gender=Fem|InflClass=IndEurX|Number=Sing	4	nmod	_	TokenRange=2412:2425
+6	tuae	tuus	DET	A1|grn1|casB|gen2|vgr1	Case=Gen|Gender=Fem|InflClass=IndEurA|Number=Sing|Number[psor]=Sing|Person[psor]=2|Poss=Yes|PronType=Prs	5	det	_	TokenRange=2426:2430
+7	et	et	CCONJ	O4	_	8	cc	_	TokenRange=2431:2433
+8	liberabo	libero	VERB	J3|modA|tem3|gen4	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=2434:2442
+9	te	tu	PRON	F1|grn1|casD|gen1	Case=Acc|InflClass=LatAnom|Number=Sing|Person=2|PronType=Prs	8	obj	_	TokenRange=2443:2445
+10	et	et	CCONJ	O4	_	11	cc	_	TokenRange=2446:2448
+11	magnificabis	magnifico	VERB	J3|modA|tem3|gen6	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=2449:2461
+12	me	ego	PRON	F1|grn1|casD|gen1	Case=Acc|InflClass=LatAnom|Number=Sing|Person=1|PronType=Prs	11	obj	_	SpaceAfter=No|TokenRange=2462:2464
+13	.	.	PUNCT	Punc	_	1	punct	_	SpacesAfter=\n|TokenRange=2464:2465
+
+# sent_id = 34
+# text = Et iterum inquit:
+1	Et	et	CCONJ	O4	_	3	cc	_	TokenRange=2466:2468
+2	iterum	iterum	ADV	O4	AdvType=Tim	3	advmod:tmod	_	TokenRange=2469:2475
+3	inquit	inquam	VERB	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=2476:2482
+4	:	:	PUNCT	Punc	_	3	punct	_	TokenRange=2482:2483
+
+# sent_id = 35
+# text = Opera autem Dei reuelare et confiteri honorificum est.
+1	Opera	opera	NOUN	A1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	7	nsubj	_	TokenRange=2484:2489
+2	autem	autem	PART	O4	_	7	discourse	_	TokenRange=2490:2495
+3	Dei	deus	NOUN	F1|grn1|casB|gen1	Case=Gen|Gender=Masc|InflClass=IndEurO|Number=Sing	1	nmod	_	TokenRange=2496:2499
+4	reuelare	reuelo	VERB	J3|modH|tem1	Aspect=Imp|InflClass=LatA|VerbForm=Inf|Voice=Act	7	csubj	_	TokenRange=2500:2508
+5	et	et	CCONJ	O4	_	6	cc	_	TokenRange=2509:2511
+6	confiteri	confiteor	VERB	K3|modQ|tem1	Aspect=Imp|InflClass=LatE|VerbForm=Inf|Voice=Pass	4	conj	_	TokenRange=2512:2521
+7	honorificum	honorificus	ADJ	B1|grn1|casA|gen3	Case=Nom|Gender=Neut|InflClass=IndEurO|Number=Sing	0	root	_	TokenRange=2522:2533
+8	est	sum	AUX	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No|TokenRange=2534:2537
+9	.	.	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n|TokenRange=2537:2538
+

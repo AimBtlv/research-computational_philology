@@ -1,0 +1,768 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = My name is Patrick .
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=0:2
+2	name	name	NOUN	NN	Number=Sing	4	nsubj	_	TokenRange=3:7
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	TokenRange=8:10
+4	Patrick	Patrick	PROPN	NNP	Number=Sing	0	root	_	TokenRange=11:18
+5	.	.	PUNCT	.	_	4	punct	_	TokenRange=19:20
+
+# sent_id = 2
+# text = I am a sinner , a simple country person , and the least of all believers .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	TokenRange=21:22
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	TokenRange=23:25
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	TokenRange=26:27
+4	sinner	sinner	NOUN	NN	Number=Sing	0	root	_	TokenRange=28:34
+5	,	,	PUNCT	,	_	9	punct	_	TokenRange=35:36
+6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	TokenRange=37:38
+7	simple	simple	ADJ	JJ	Degree=Pos	9	amod	_	TokenRange=39:45
+8	country	country	NOUN	NN	Number=Sing	9	compound	_	TokenRange=46:53
+9	person	person	NOUN	NN	Number=Sing	4	appos	_	TokenRange=54:60
+10	,	,	PUNCT	,	_	13	punct	_	TokenRange=61:62
+11	and	and	CCONJ	CC	_	13	cc	_	TokenRange=63:66
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	TokenRange=67:70
+13	least	least	ADJ	JJS	Degree=Sup	4	conj	_	TokenRange=71:76
+14	of	of	ADP	IN	_	16	case	_	TokenRange=77:79
+15	all	all	DET	DT	PronType=Tot	16	det	_	TokenRange=80:83
+16	believers	believer	NOUN	NNS	Number=Plur	13	obl	_	TokenRange=84:93
+17	.	.	PUNCT	.	_	4	punct	_	TokenRange=94:95
+
+# sent_id = 3
+# text = I am looked down upon by many .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	TokenRange=96:97
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:pass	_	TokenRange=98:100
+3	looked	look	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=101:107
+4	down	down	ADP	RP	_	3	compound:prt	_	TokenRange=108:112
+5	upon	upon	ADP	IN	_	3	obl	_	TokenRange=113:117
+6	by	by	ADP	IN	_	7	case	_	TokenRange=118:120
+7	many	many	ADJ	JJ	Degree=Pos	3	obl:agent	_	TokenRange=121:125
+8	.	.	PUNCT	.	_	3	punct	_	TokenRange=126:127
+
+# sent_id = 4
+# text = My father was Calpornius .
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=128:130
+2	father	father	NOUN	NN	Number=Sing	4	nsubj	_	TokenRange=131:137
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	TokenRange=138:141
+4	Calpornius	Calpornius	PROPN	NNP	Number=Sing	0	root	_	TokenRange=142:152
+5	.	.	PUNCT	.	_	4	punct	_	TokenRange=153:154
+
+# sent_id = 5
+# text = He was a deacon ; his father was Potitus , a priest , who lived at Bannavem Taburniae .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	TokenRange=155:157
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	TokenRange=158:161
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	TokenRange=162:163
+4	deacon	deacon	NOUN	NN	Number=Sing	0	root	_	TokenRange=164:170
+5	;	;	PUNCT	,	_	9	punct	_	TokenRange=171:172
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	TokenRange=173:176
+7	father	father	NOUN	NN	Number=Sing	9	nsubj	_	TokenRange=177:183
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	TokenRange=184:187
+9	Potitus	Potitus	PROPN	NNP	Number=Sing	4	parataxis	_	TokenRange=188:195
+10	,	,	PUNCT	,	_	12	punct	_	TokenRange=196:197
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	TokenRange=198:199
+12	priest	priest	NOUN	NN	Number=Sing	9	appos	_	TokenRange=200:206
+13	,	,	PUNCT	,	_	15	punct	_	TokenRange=207:208
+14	who	who	PRON	WP	PronType=Rel	15	nsubj	_	TokenRange=209:212
+15	lived	live	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	TokenRange=213:218
+16	at	at	ADP	IN	_	17	case	_	TokenRange=219:221
+17	Bannavem	Bannavem	PROPN	NNP	Number=Sing	15	obl	_	TokenRange=222:230
+18	Taburniae	Taburniae	PROPN	NNP	Number=Sing	17	flat	_	TokenRange=231:240
+19	.	.	PUNCT	.	_	4	punct	_	TokenRange=241:242
+
+# sent_id = 6
+# text = His home was near there , and that is where I was taken prisoner .
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	TokenRange=243:246
+2	home	home	NOUN	NN	Number=Sing	5	nsubj	_	TokenRange=247:251
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	TokenRange=252:255
+4	near	near	ADP	IN	_	5	case	_	TokenRange=256:260
+5	there	there	ADV	RB	PronType=Dem	0	root	_	TokenRange=261:266
+6	,	,	PUNCT	,	_	10	punct	_	TokenRange=267:268
+7	and	and	CCONJ	CC	_	10	cc	_	TokenRange=269:272
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	TokenRange=273:277
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	TokenRange=278:280
+10	where	where	ADV	WRB	PronType=Rel	5	conj	_	TokenRange=281:286
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj:pass	_	TokenRange=287:288
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux:pass	_	TokenRange=289:292
+13	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl:relcl	_	TokenRange=293:298
+14	prisoner	prisoner	NOUN	NN	Number=Sing	13	obj	_	TokenRange=299:307
+15	.	.	PUNCT	.	_	5	punct	_	TokenRange=308:309
+
+# sent_id = 7
+# text = I was about sixteen at the time .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	TokenRange=310:311
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	TokenRange=312:315
+3	about	about	ADV	RB	_	4	advmod	_	TokenRange=316:321
+4	sixteen	sixteen	NUM	CD	NumForm=Word|NumType=Card	0	root	_	TokenRange=322:329
+5	at	at	ADP	IN	_	7	case	_	TokenRange=330:332
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	TokenRange=333:336
+7	time	time	NOUN	NN	Number=Sing	4	obl	_	TokenRange=337:341
+8	.	.	PUNCT	.	_	4	punct	_	TokenRange=342:343
+
+# sent_id = 8
+# text = At that time , I did not know the true God .
+1	At	at	ADP	IN	_	3	case	_	TokenRange=344:346
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	TokenRange=347:351
+3	time	time	NOUN	NN	Number=Sing	8	obl	_	TokenRange=352:356
+4	,	,	PUNCT	,	_	3	punct	_	TokenRange=357:358
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	TokenRange=359:360
+6	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	TokenRange=361:364
+7	not	not	PART	RB	Polarity=Neg	8	advmod	_	TokenRange=365:368
+8	know	know	VERB	VB	VerbForm=Inf	0	root	_	TokenRange=369:373
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	TokenRange=374:377
+10	true	true	ADJ	JJ	Degree=Pos	11	amod	_	TokenRange=378:382
+11	God	God	PROPN	NNP	Number=Sing	8	obj	_	TokenRange=383:386
+12	.	.	PUNCT	.	_	8	punct	_	TokenRange=387:388
+
+# sent_id = 9
+# text = I was taken into captivity in Ireland , along with thousands of others .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	TokenRange=389:390
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	TokenRange=391:394
+3	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=395:400
+4	into	into	ADP	IN	_	5	case	_	TokenRange=401:405
+5	captivity	captivity	NOUN	NN	Number=Sing	3	obl	_	TokenRange=406:415
+6	in	in	ADP	IN	_	7	case	_	TokenRange=416:418
+7	Ireland	Ireland	PROPN	NNP	Number=Sing	5	nmod	_	TokenRange=419:426
+8	,	,	PUNCT	,	_	11	punct	_	TokenRange=427:428
+9	along	along	ADP	IN	_	11	case	_	TokenRange=429:434
+10	with	with	ADP	IN	_	11	case	_	TokenRange=435:439
+11	thousands	thousand	NOUN	NNS	Number=Plur	3	obl	_	TokenRange=440:449
+12	of	of	ADP	IN	_	13	case	_	TokenRange=450:452
+13	others	other	NOUN	NNS	Number=Plur	11	nmod	_	TokenRange=453:459
+14	.	.	PUNCT	.	_	3	punct	_	TokenRange=460:461
+
+# sent_id = 10
+# text = We deserved this , because we had gone away from God , and did not keep his commandments .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	TokenRange=462:464
+2	deserved	deserve	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=465:473
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	obj	_	TokenRange=474:478
+4	,	,	PUNCT	,	_	8	punct	_	TokenRange=479:480
+5	because	because	SCONJ	IN	_	8	mark	_	TokenRange=481:488
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	TokenRange=489:491
+7	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	TokenRange=492:495
+8	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	TokenRange=496:500
+9	away	away	ADV	RB	_	8	advmod	_	TokenRange=501:505
+10	from	from	ADP	IN	_	11	case	_	TokenRange=506:510
+11	God	God	PROPN	NNP	Number=Sing	8	obl	_	TokenRange=511:514
+12	,	,	PUNCT	,	_	16	punct	_	TokenRange=515:516
+13	and	and	CCONJ	CC	_	16	cc	_	TokenRange=517:520
+14	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	16	aux	_	TokenRange=521:524
+15	not	not	PART	RB	Polarity=Neg	16	advmod	_	TokenRange=525:528
+16	keep	keep	VERB	VB	VerbForm=Inf	8	conj	_	TokenRange=529:533
+17	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	TokenRange=534:537
+18	commandments	commandment	NOUN	NNS	Number=Plur	16	obj	_	TokenRange=538:550
+19	.	.	PUNCT	.	_	2	punct	_	TokenRange=551:552
+
+# sent_id = 11
+# text = We would not listen to our priests , who advised us about how we could be saved .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	TokenRange=553:555
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	TokenRange=556:561
+3	not	not	PART	RB	Polarity=Neg	4	advmod	_	TokenRange=562:565
+4	listen	listen	VERB	VB	VerbForm=Inf	0	root	_	TokenRange=566:572
+5	to	to	ADP	IN	_	7	case	_	TokenRange=573:575
+6	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	TokenRange=576:579
+7	priests	priest	NOUN	NNS	Number=Plur	4	obl	_	TokenRange=580:587
+8	,	,	PUNCT	,	_	10	punct	_	TokenRange=588:589
+9	who	who	PRON	WP	PronType=Rel	10	nsubj	_	TokenRange=590:593
+10	advised	advise	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	TokenRange=594:601
+11	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	iobj	_	TokenRange=602:604
+12	about	about	SCONJ	IN	_	17	mark	_	TokenRange=605:610
+13	how	how	ADV	WRB	PronType=Int	17	advmod	_	TokenRange=611:614
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj:pass	_	TokenRange=615:617
+15	could	could	AUX	MD	VerbForm=Fin	17	aux	_	TokenRange=618:623
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	TokenRange=624:626
+17	saved	save	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	TokenRange=627:632
+18	.	.	PUNCT	.	_	4	punct	_	TokenRange=633:634
+
+# sent_id = 12
+# text = The Lord brought his strong anger upon us , and scattered us among many nations even to the ends of the earth .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=635:638
+2	Lord	Lord	PROPN	NNP	Number=Sing	3	nsubj	_	TokenRange=639:643
+3	brought	bring	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=644:651
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	TokenRange=652:655
+5	strong	strong	ADJ	JJ	Degree=Pos	6	amod	_	TokenRange=656:662
+6	anger	anger	NOUN	NN	Number=Sing	3	obj	_	TokenRange=663:668
+7	upon	upon	ADP	IN	_	8	case	_	TokenRange=669:673
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	TokenRange=674:676
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=677:678
+10	and	and	CCONJ	CC	_	11	cc	_	TokenRange=679:682
+11	scattered	scatter	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	TokenRange=683:692
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	TokenRange=693:695
+13	among	among	ADP	IN	_	15	case	_	TokenRange=696:701
+14	many	many	ADJ	JJ	Degree=Pos	15	amod	_	TokenRange=702:706
+15	nations	nation	NOUN	NNS	Number=Plur	11	obl	_	TokenRange=707:714
+16	even	even	ADV	RB	_	19	advmod	_	TokenRange=715:719
+17	to	to	ADP	IN	_	19	case	_	TokenRange=720:722
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	TokenRange=723:726
+19	ends	end	NOUN	NNS	Number=Plur	11	obl	_	TokenRange=727:731
+20	of	of	ADP	IN	_	22	case	_	TokenRange=732:734
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	TokenRange=735:738
+22	earth	earth	NOUN	NN	Number=Sing	19	nmod	_	TokenRange=739:744
+23	.	.	PUNCT	.	_	3	punct	_	TokenRange=745:746
+
+# sent_id = 13
+# text = It was among foreigners that it was seen how little I was ;
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	TokenRange=747:749
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	TokenRange=750:753
+3	among	among	ADP	IN	_	4	case	_	TokenRange=754:759
+4	foreigners	foreigner	NOUN	NNS	Number=Plur	0	root	_	TokenRange=760:770
+5	that	that	SCONJ	IN	_	8	mark	_	TokenRange=771:775
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	TokenRange=776:778
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	TokenRange=779:782
+8	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	csubj	_	TokenRange=783:787
+9	how	how	ADV	WRB	PronType=Int	10	advmod	_	TokenRange=788:791
+10	little	little	ADJ	JJ	Degree=Pos	8	ccomp	_	TokenRange=792:798
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	TokenRange=799:800
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	cop	_	TokenRange=801:804
+13	;	;	PUNCT	,	_	4	punct	_	SpacesAfter=\s\n\n|TokenRange=805:806
+
+# newpar
+# sent_id = 14
+# text = It was there that the Lord opened up my awareness of my lack of faith .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	TokenRange=809:811
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	TokenRange=812:815
+3	there	there	ADV	RB	PronType=Dem	0	root	_	TokenRange=816:821
+4	that	that	SCONJ	IN	_	7	mark	_	TokenRange=822:826
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	TokenRange=827:830
+6	Lord	Lord	PROPN	NNP	Number=Sing	7	nsubj	_	TokenRange=831:835
+7	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	csubj	_	TokenRange=836:842
+8	up	up	ADP	RP	_	7	compound:prt	_	TokenRange=843:845
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=846:848
+10	awareness	awareness	NOUN	NN	Number=Sing	7	obj	_	TokenRange=849:858
+11	of	of	ADP	IN	_	13	case	_	TokenRange=859:861
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	TokenRange=862:864
+13	lack	lack	NOUN	NN	Number=Sing	10	nmod	_	TokenRange=865:869
+14	of	of	ADP	IN	_	15	case	_	TokenRange=870:872
+15	faith	faith	NOUN	NN	Number=Sing	13	nmod	_	TokenRange=873:878
+16	.	.	PUNCT	.	_	3	punct	_	TokenRange=879:880
+
+# sent_id = 15
+# text = Even though it came about late , I recognised my failings .
+1	Even	even	ADV	RB	_	4	advmod	_	TokenRange=881:885
+2	though	though	SCONJ	IN	_	4	mark	_	TokenRange=886:892
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	TokenRange=893:895
+4	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	TokenRange=896:900
+5	about	about	ADV	RB	_	6	advmod	_	TokenRange=901:906
+6	late	late	ADV	RB	Degree=Pos	4	advmod	_	TokenRange=907:911
+7	,	,	PUNCT	,	_	4	punct	_	TokenRange=912:913
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	TokenRange=914:915
+9	recognised	recognise	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=916:926
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	TokenRange=927:929
+11	failings	failing	NOUN	NNS	Number=Plur	9	obj	_	TokenRange=930:938
+12	.	.	PUNCT	.	_	9	punct	_	TokenRange=939:940
+
+# sent_id = 16
+# text = So I turned with all my heart to the Lord my God , and he looked down on my lowliness and had mercy on my youthful ignorance .
+1	So	so	ADV	RB	_	3	advmod	_	TokenRange=941:943
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	TokenRange=944:945
+3	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=946:952
+4	with	with	ADP	IN	_	7	case	_	TokenRange=953:957
+5	all	all	DET	PDT	PronType=Tot	7	det:predet	_	TokenRange=958:961
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	TokenRange=962:964
+7	heart	heart	NOUN	NN	Number=Sing	3	obl	_	TokenRange=965:970
+8	to	to	ADP	IN	_	10	case	_	TokenRange=971:973
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	TokenRange=974:977
+10	Lord	Lord	NOUN	NN	Number=Sing	3	obl	_	TokenRange=978:982
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	TokenRange=983:985
+12	God	God	PROPN	NNP	Number=Sing	10	appos	_	TokenRange=986:989
+13	,	,	PUNCT	,	_	16	punct	_	TokenRange=990:991
+14	and	and	CCONJ	CC	_	16	cc	_	TokenRange=992:995
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	TokenRange=996:998
+16	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	TokenRange=999:1005
+17	down	down	ADV	RB	_	16	advmod	_	TokenRange=1006:1010
+18	on	on	ADP	IN	_	20	case	_	TokenRange=1011:1013
+19	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	TokenRange=1014:1016
+20	lowliness	lowliness	NOUN	NN	Number=Sing	16	obl	_	TokenRange=1017:1026
+21	and	and	CCONJ	CC	_	22	cc	_	TokenRange=1027:1030
+22	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	TokenRange=1031:1034
+23	mercy	mercy	NOUN	NN	Number=Sing	22	obj	_	TokenRange=1035:1040
+24	on	on	ADP	IN	_	27	case	_	TokenRange=1041:1043
+25	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	TokenRange=1044:1046
+26	youthful	youthful	ADJ	JJ	Degree=Pos	27	amod	_	TokenRange=1047:1055
+27	ignorance	ignorance	NOUN	NN	Number=Sing	23	nmod	_	TokenRange=1056:1065
+28	.	.	PUNCT	.	_	3	punct	_	TokenRange=1066:1067
+
+# sent_id = 17
+# text = He guarded me before I knew him , and before I came to wisdom and could distinguish between good and evil .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=1068:1070
+2	guarded	guard	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=1071:1078
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	TokenRange=1079:1081
+4	before	before	SCONJ	IN	_	6	mark	_	TokenRange=1082:1088
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	TokenRange=1089:1090
+6	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	TokenRange=1091:1095
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	TokenRange=1096:1099
+8	,	,	PUNCT	,	_	12	punct	_	TokenRange=1100:1101
+9	and	and	CCONJ	CC	_	12	cc	_	TokenRange=1102:1105
+10	before	before	SCONJ	IN	_	12	mark	_	TokenRange=1106:1112
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	TokenRange=1113:1114
+12	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	conj	_	TokenRange=1115:1119
+13	to	to	ADP	IN	_	14	case	_	TokenRange=1120:1122
+14	wisdom	wisdom	NOUN	NN	Number=Sing	12	obl	_	TokenRange=1123:1129
+15	and	and	CCONJ	CC	_	17	cc	_	TokenRange=1130:1133
+16	could	could	AUX	MD	VerbForm=Fin	17	aux	_	TokenRange=1134:1139
+17	distinguish	distinguish	VERB	VB	VerbForm=Inf	12	conj	_	TokenRange=1140:1151
+18	between	between	ADP	IN	_	19	case	_	TokenRange=1152:1159
+19	good	good	ADJ	JJ	Degree=Pos	17	obl	_	TokenRange=1160:1164
+20	and	and	CCONJ	CC	_	21	cc	_	TokenRange=1165:1168
+21	evil	evil	ADJ	JJ	Degree=Pos	19	conj	_	TokenRange=1169:1173
+22	.	.	PUNCT	.	_	2	punct	_	TokenRange=1174:1175
+
+# sent_id = 18
+# text = He protected me and consoled me as a father does for his son ;
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=1176:1178
+2	protected	protect	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=1179:1188
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	TokenRange=1189:1191
+4	and	and	CCONJ	CC	_	5	cc	_	TokenRange=1192:1195
+5	consoled	consol	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	TokenRange=1196:1204
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	TokenRange=1205:1207
+7	as	as	SCONJ	IN	_	10	mark	_	TokenRange=1208:1210
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	TokenRange=1211:1212
+9	father	father	NOUN	NN	Number=Sing	10	nsubj	_	TokenRange=1213:1219
+10	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	TokenRange=1220:1224
+11	for	for	ADP	IN	_	13	case	_	TokenRange=1225:1228
+12	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	TokenRange=1229:1232
+13	son	son	NOUN	NN	Number=Sing	10	obl	_	TokenRange=1233:1236
+14	;	;	PUNCT	,	_	2	punct	_	SpacesAfter=\s\n\n|TokenRange=1237:1238
+
+# newpar
+# sent_id = 19
+# text = That is why I cannot be silent – nor would it be good to do so – about such great blessings and such a gift that the Lord so kindly bestowed in the land of my captivity .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	TokenRange=1241:1245
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	TokenRange=1246:1248
+3	why	why	ADV	WRB	PronType=Rel	0	root	_	TokenRange=1249:1252
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	TokenRange=1253:1254
+5-6	cannot	_	_	_	_	_	_	_	TokenRange=1255:1261
+5	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+6	not	not	PART	RB	Polarity=Neg	8	advmod	_	_
+7	be	be	AUX	VB	VerbForm=Inf	8	cop	_	TokenRange=1262:1264
+8	silent	silent	ADJ	JJ	Degree=Pos	3	advcl:relcl	_	TokenRange=1265:1271
+9	–	-	PUNCT	,	_	14	punct	_	TokenRange=1272:1273
+10	nor	nor	CCONJ	CC	Polarity=Neg	14	cc	_	TokenRange=1274:1277
+11	would	would	AUX	MD	VerbForm=Fin	14	aux	_	TokenRange=1278:1283
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	TokenRange=1284:1286
+13	be	be	AUX	VB	VerbForm=Inf	14	cop	_	TokenRange=1287:1289
+14	good	good	ADJ	JJ	Degree=Pos	3	conj	_	TokenRange=1290:1294
+15	to	to	PART	TO	_	16	mark	_	TokenRange=1295:1297
+16	do	do	VERB	VB	VerbForm=Inf	14	csubj	_	TokenRange=1298:1300
+17	so	so	ADV	RB	_	16	advmod	_	TokenRange=1301:1303
+18	–	-	PUNCT	,	_	22	punct	_	TokenRange=1304:1305
+19	about	about	ADP	IN	_	22	case	_	TokenRange=1306:1311
+20	such	such	ADJ	JJ	Degree=Pos	22	amod	_	TokenRange=1312:1316
+21	great	great	ADJ	JJ	Degree=Pos	22	amod	_	TokenRange=1317:1322
+22	blessings	blessing	NOUN	NNS	Number=Plur	16	obl	_	TokenRange=1323:1332
+23	and	and	CCONJ	CC	_	26	cc	_	TokenRange=1333:1336
+24	such	such	DET	PDT	PronType=Ind	26	det:predet	_	TokenRange=1337:1341
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	TokenRange=1342:1343
+26	gift	gift	NOUN	NN	Number=Sing	22	conj	_	TokenRange=1344:1348
+27	that	that	PRON	WDT	PronType=Rel	32	obj	_	TokenRange=1349:1353
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	TokenRange=1354:1357
+29	Lord	Lord	PROPN	NNP	Number=Sing	32	nsubj	_	TokenRange=1358:1362
+30	so	so	ADV	RB	_	31	advmod	_	TokenRange=1363:1365
+31	kindly	kindly	ADV	RB	_	32	advmod	_	TokenRange=1366:1372
+32	bestowed	bestow	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	acl:relcl	_	TokenRange=1373:1381
+33	in	in	ADP	IN	_	35	case	_	TokenRange=1382:1384
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	TokenRange=1385:1388
+35	land	land	NOUN	NN	Number=Sing	32	obl	_	TokenRange=1389:1393
+36	of	of	ADP	IN	_	38	case	_	TokenRange=1394:1396
+37	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	38	nmod:poss	_	TokenRange=1397:1399
+38	captivity	captivity	NOUN	NN	Number=Sing	35	nmod	_	TokenRange=1400:1409
+39	.	.	PUNCT	.	_	3	punct	_	TokenRange=1410:1411
+
+# sent_id = 20
+# text = This is how we can repay such blessings , when our lives change and we come to know God , to praise and bear witness to his great wonders before every nation under heaven ;
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	TokenRange=1412:1416
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	TokenRange=1417:1419
+3	how	how	ADV	WRB	PronType=Int	0	root	_	TokenRange=1420:1423
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	TokenRange=1424:1426
+5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	TokenRange=1427:1430
+6	repay	repay	VERB	VB	VerbForm=Inf	3	advcl:relcl	_	TokenRange=1431:1436
+7	such	such	ADJ	JJ	Degree=Pos	8	amod	_	TokenRange=1437:1441
+8	blessings	blessing	NOUN	NNS	Number=Plur	6	obj	_	TokenRange=1442:1451
+9	,	,	PUNCT	,	_	13	punct	_	TokenRange=1452:1453
+10	when	when	ADV	WRB	PronType=Int	13	advmod	_	TokenRange=1454:1458
+11	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	TokenRange=1459:1462
+12	lives	life	NOUN	NNS	Number=Plur	13	nsubj	_	TokenRange=1463:1468
+13	change	change	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	TokenRange=1469:1475
+14	and	and	CCONJ	CC	_	16	cc	_	TokenRange=1476:1479
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	TokenRange=1480:1482
+16	come	come	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	TokenRange=1483:1487
+17	to	to	PART	TO	_	18	mark	_	TokenRange=1488:1490
+18	know	know	VERB	VB	VerbForm=Inf	16	xcomp	_	TokenRange=1491:1495
+19	God	God	PROPN	NNP	Number=Sing	18	obj	_	TokenRange=1496:1499
+20	,	,	PUNCT	,	_	22	punct	_	TokenRange=1500:1501
+21	to	to	PART	TO	_	22	mark	_	TokenRange=1502:1504
+22	praise	praise	VERB	VB	VerbForm=Inf	18	advcl	_	TokenRange=1505:1511
+23	and	and	CCONJ	CC	_	24	cc	_	TokenRange=1512:1515
+24	bear	bear	VERB	VB	VerbForm=Inf	22	conj	_	TokenRange=1516:1520
+25	witness	witness	NOUN	NN	Number=Sing	22	obj	_	TokenRange=1521:1528
+26	to	to	ADP	IN	_	29	case	_	TokenRange=1529:1531
+27	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	TokenRange=1532:1535
+28	great	great	ADJ	JJ	Degree=Pos	29	amod	_	TokenRange=1536:1541
+29	wonders	wonder	NOUN	NNS	Number=Plur	25	nmod	_	TokenRange=1542:1549
+30	before	before	ADP	IN	_	32	case	_	TokenRange=1550:1556
+31	every	every	DET	DT	PronType=Tot	32	det	_	TokenRange=1557:1562
+32	nation	nation	NOUN	NN	Number=Sing	22	obl	_	TokenRange=1563:1569
+33	under	under	ADP	IN	_	34	case	_	TokenRange=1570:1575
+34	heaven	heaven	NOUN	NN	Number=Sing	32	nmod	_	TokenRange=1576:1582
+35	;	;	PUNCT	,	_	3	punct	_	SpacesAfter=\s\n\n|TokenRange=1583:1584
+
+# newpar
+# sent_id = 21
+# text = This is because there is no other God , nor will there ever be , nor was there ever , except God the Father .
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj:outer	_	TokenRange=1587:1591
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	TokenRange=1592:1594
+3	because	because	SCONJ	IN	_	5	mark	_	TokenRange=1595:1602
+4	there	there	PRON	EX	PronType=Dem	5	expl	_	TokenRange=1603:1608
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=1609:1611
+6	no	no	DET	DT	PronType=Neg	8	det	_	TokenRange=1612:1614
+7	other	other	ADJ	JJ	Degree=Pos	8	amod	_	TokenRange=1615:1620
+8	God	God	PROPN	NNP	Number=Sing	5	nsubj	_	TokenRange=1621:1624
+9	,	,	PUNCT	,	_	14	punct	_	TokenRange=1625:1626
+10	nor	nor	CCONJ	CC	Polarity=Neg	14	cc	_	TokenRange=1627:1630
+11	will	will	AUX	MD	VerbForm=Fin	14	aux	_	TokenRange=1631:1635
+12	there	there	PRON	EX	PronType=Dem	14	expl	_	TokenRange=1636:1641
+13	ever	ever	ADV	RB	PronType=Ind	14	advmod	_	TokenRange=1642:1646
+14	be	be	VERB	VB	VerbForm=Inf	5	conj	_	TokenRange=1647:1649
+15	,	,	PUNCT	,	_	17	punct	_	TokenRange=1650:1651
+16	nor	nor	CCONJ	CC	Polarity=Neg	17	cc	_	TokenRange=1652:1655
+17	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	TokenRange=1656:1659
+18	there	there	PRON	EX	PronType=Dem	17	expl	_	TokenRange=1660:1665
+19	ever	ever	ADV	RB	PronType=Ind	17	advmod	_	TokenRange=1666:1670
+20	,	,	PUNCT	,	_	22	punct	_	TokenRange=1671:1672
+21	except	except	ADP	IN	_	22	case	_	TokenRange=1673:1679
+22	God	God	PROPN	NNP	Number=Sing	17	obl	_	TokenRange=1680:1683
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	TokenRange=1684:1687
+24	Father	Father	PROPN	NNP	Number=Sing	22	appos	_	TokenRange=1688:1694
+25	.	.	PUNCT	.	_	5	punct	_	TokenRange=1695:1696
+
+# sent_id = 22
+# text = He is the one who was not begotten , the one without a beginning , the one from whom all beginnings come , the one who holds all things in being – this is our teaching .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	TokenRange=1697:1699
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	TokenRange=1700:1702
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	TokenRange=1703:1706
+4	one	one	NOUN	NN	Number=Sing	0	root	_	TokenRange=1707:1710
+5	who	who	PRON	WP	PronType=Rel	8	nsubj:pass	_	TokenRange=1711:1714
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	TokenRange=1715:1718
+7	not	not	PART	RB	Polarity=Neg	8	advmod	_	TokenRange=1719:1722
+8	begotten	begotten	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	TokenRange=1723:1731
+9	,	,	PUNCT	,	_	11	punct	_	TokenRange=1732:1733
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	TokenRange=1734:1737
+11	one	one	NOUN	NN	Number=Sing	4	conj	_	TokenRange=1738:1741
+12	without	without	ADP	IN	_	14	case	_	TokenRange=1742:1749
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	TokenRange=1750:1751
+14	beginning	beginning	NOUN	NN	Number=Sing	11	nmod	_	TokenRange=1752:1761
+15	,	,	PUNCT	,	_	17	punct	_	TokenRange=1762:1763
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	TokenRange=1764:1767
+17	one	one	NOUN	NN	Number=Sing	4	conj	_	TokenRange=1768:1771
+18	from	from	ADP	IN	_	19	case	_	TokenRange=1772:1776
+19	whom	whom	PRON	WP	PronType=Rel	22	obl	_	TokenRange=1777:1781
+20	all	all	DET	DT	PronType=Tot	21	det	_	TokenRange=1782:1785
+21	beginnings	beginning	NOUN	NNS	Number=Plur	22	nsubj	_	TokenRange=1786:1796
+22	come	come	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	TokenRange=1797:1801
+23	,	,	PUNCT	,	_	25	punct	_	TokenRange=1802:1803
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	TokenRange=1804:1807
+25	one	one	NOUN	NN	Number=Sing	4	conj	_	TokenRange=1808:1811
+26	who	who	PRON	WP	PronType=Rel	27	nsubj	_	TokenRange=1812:1815
+27	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	TokenRange=1816:1821
+28	all	all	DET	DT	PronType=Tot	29	det	_	TokenRange=1822:1825
+29	things	thing	NOUN	NNS	Number=Plur	27	obj	_	TokenRange=1826:1832
+30	in	in	SCONJ	IN	_	31	mark	_	TokenRange=1833:1835
+31	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	27	advcl	_	TokenRange=1836:1841
+32	–	-	PUNCT	,	_	36	punct	_	TokenRange=1842:1843
+33	this	this	PRON	DT	Number=Sing|PronType=Dem	36	nsubj	_	TokenRange=1844:1848
+34	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	TokenRange=1849:1851
+35	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	TokenRange=1852:1855
+36	teaching	teaching	NOUN	NN	Number=Sing	4	parataxis	_	TokenRange=1856:1864
+37	.	.	PUNCT	.	_	4	punct	_	TokenRange=1865:1866
+
+# sent_id = 23
+# text = And his son , Jesus Christ , whom we testify has always been , since before the beginning of this age , with the father in a spiritual way .
+1	And	and	CCONJ	CC	_	25	cc	_	TokenRange=1867:1870
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	TokenRange=1871:1874
+3	son	son	NOUN	NN	Number=Sing	25	nsubj	_	TokenRange=1875:1878
+4	,	,	PUNCT	,	_	5	punct	_	TokenRange=1879:1880
+5	Jesus	Jesus	PROPN	NNP	Number=Sing	3	appos	_	TokenRange=1881:1886
+6	Christ	Christ	PROPN	NNP	Number=Sing	5	flat	_	TokenRange=1887:1893
+7	,	,	PUNCT	,	_	10	punct	_	TokenRange=1894:1895
+8	whom	whom	PRON	WP	PronType=Rel	10	obj	_	TokenRange=1896:1900
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	TokenRange=1901:1903
+10	testify	testify	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	TokenRange=1904:1911
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	TokenRange=1912:1915
+12	always	always	ADV	RB	PronType=Tot	18	advmod	_	TokenRange=1916:1922
+13	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	cop	_	TokenRange=1923:1927
+14	,	,	PUNCT	,	_	13	punct	_	TokenRange=1928:1929
+15	since	since	ADP	IN	_	18	case	_	TokenRange=1930:1935
+16	before	before	ADP	IN	_	18	case	_	TokenRange=1936:1942
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	TokenRange=1943:1946
+18	beginning	beginning	NOUN	NN	Number=Sing	10	ccomp	_	TokenRange=1947:1956
+19	of	of	ADP	IN	_	21	case	_	TokenRange=1957:1959
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	TokenRange=1960:1964
+21	age	age	NOUN	NN	Number=Sing	18	nmod	_	TokenRange=1965:1968
+22	,	,	PUNCT	,	_	18	punct	_	TokenRange=1969:1970
+23	with	with	ADP	IN	_	25	case	_	TokenRange=1971:1975
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	TokenRange=1976:1979
+25	father	father	NOUN	NN	Number=Sing	0	root	_	TokenRange=1980:1986
+26	in	in	ADP	IN	_	29	case	_	TokenRange=1987:1989
+27	a	a	DET	DT	Definite=Ind|PronType=Art	29	det	_	TokenRange=1990:1991
+28	spiritual	spiritual	ADJ	JJ	Degree=Pos	29	amod	_	TokenRange=1992:2001
+29	way	way	NOUN	NN	Number=Sing	25	nmod	_	TokenRange=2002:2005
+30	.	.	PUNCT	.	_	25	punct	_	TokenRange=2006:2007
+
+# sent_id = 24
+# text = He was begotten in an indescribable way before every beginning .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	TokenRange=2008:2010
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	TokenRange=2011:2014
+3	begotten	beget	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=2015:2023
+4	in	in	ADP	IN	_	7	case	_	TokenRange=2024:2026
+5	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	TokenRange=2027:2029
+6	indescribable	indescribable	ADJ	JJ	Degree=Pos	7	amod	_	TokenRange=2030:2043
+7	way	way	NOUN	NN	Number=Sing	3	obl	_	TokenRange=2044:2047
+8	before	before	ADP	IN	_	10	case	_	TokenRange=2048:2054
+9	every	every	DET	DT	PronType=Tot	10	det	_	TokenRange=2055:2060
+10	beginning	beginning	NOUN	NN	Number=Sing	3	obl	_	TokenRange=2061:2070
+11	.	.	PUNCT	.	_	3	punct	_	TokenRange=2071:2072
+
+# sent_id = 25
+# text = Everything we can see , and everything beyond our sight , was made through him .
+1	Everything	everything	PRON	NN	Number=Sing|PronType=Tot	13	nsubj:pass	_	TokenRange=2073:2083
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	TokenRange=2084:2086
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	TokenRange=2087:2090
+4	see	see	VERB	VB	VerbForm=Inf	1	acl:relcl	_	TokenRange=2091:2094
+5	,	,	PUNCT	,	_	7	punct	_	TokenRange=2095:2096
+6	and	and	CCONJ	CC	_	7	cc	_	TokenRange=2097:2100
+7	everything	everything	PRON	NN	Number=Sing|PronType=Tot	1	conj	_	TokenRange=2101:2111
+8	beyond	beyond	ADP	IN	_	10	case	_	TokenRange=2112:2118
+9	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=2119:2122
+10	sight	sight	NOUN	NN	Number=Sing	7	nmod	_	TokenRange=2123:2128
+11	,	,	PUNCT	,	_	1	punct	_	TokenRange=2129:2130
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	TokenRange=2131:2134
+13	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=2135:2139
+14	through	through	ADP	IN	_	15	case	_	TokenRange=2140:2147
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	TokenRange=2148:2151
+16	.	.	PUNCT	.	_	13	punct	_	TokenRange=2152:2153
+
+# sent_id = 26
+# text = He became a human being ; and , having overcome death , was welcomed to the heavens to the Father .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=2154:2156
+2	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=2157:2163
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	TokenRange=2164:2165
+4	human	human	ADJ	JJ	Degree=Pos	5	amod	_	TokenRange=2166:2171
+5	being	being	NOUN	NN	Number=Sing	2	xcomp	_	TokenRange=2172:2177
+6	;	;	PUNCT	,	_	14	punct	_	TokenRange=2178:2179
+7	and	and	CCONJ	CC	_	14	cc	_	TokenRange=2180:2183
+8	,	,	PUNCT	,	_	7	punct	_	TokenRange=2184:2185
+9	having	have	AUX	VBG	Tense=Pres|VerbForm=Part	10	aux	_	TokenRange=2186:2192
+10	overcome	overcome	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	_	TokenRange=2193:2201
+11	death	death	NOUN	NN	Number=Sing	10	obj	_	TokenRange=2202:2207
+12	,	,	PUNCT	,	_	10	punct	_	TokenRange=2208:2209
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	TokenRange=2210:2213
+14	welcomed	welcome	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	TokenRange=2214:2222
+15	to	to	ADP	IN	_	17	case	_	TokenRange=2223:2225
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	TokenRange=2226:2229
+17	heavens	heaven	NOUN	NNS	Number=Plur	14	obl	_	TokenRange=2230:2237
+18	to	to	ADP	IN	_	20	case	_	TokenRange=2238:2240
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	TokenRange=2241:2244
+20	Father	father	NOUN	NN	Number=Sing	14	obl	_	TokenRange=2245:2251
+21	.	.	PUNCT	.	_	2	punct	_	TokenRange=2252:2253
+
+# sent_id = 27
+# text = The Father gave him all power over every being , both heavenly and earthly and beneath the earth .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=2254:2257
+2	Father	Father	PROPN	NNP	Number=Sing	3	nsubj	_	TokenRange=2258:2264
+3	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=2265:2269
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	TokenRange=2270:2273
+5	all	all	DET	DT	PronType=Tot	6	det	_	TokenRange=2274:2277
+6	power	power	NOUN	NN	Number=Sing	3	obj	_	TokenRange=2278:2283
+7	over	over	ADP	IN	_	9	case	_	TokenRange=2284:2288
+8	every	every	DET	DT	PronType=Tot	9	det	_	TokenRange=2289:2294
+9	being	being	NOUN	NN	Number=Sing	6	nmod	_	TokenRange=2295:2300
+10	,	,	PUNCT	,	_	12	punct	_	TokenRange=2301:2302
+11	both	both	CCONJ	CC	_	12	cc:preconj	_	TokenRange=2303:2307
+12	heavenly	heavenly	ADJ	JJ	Degree=Pos	9	amod	_	TokenRange=2308:2316
+13	and	and	CCONJ	CC	_	14	cc	_	TokenRange=2317:2320
+14	earthly	earthly	ADJ	JJ	Degree=Pos	12	conj	_	TokenRange=2321:2328
+15	and	and	CCONJ	CC	_	18	cc	_	TokenRange=2329:2332
+16	beneath	beneath	ADP	IN	_	18	case	_	TokenRange=2333:2340
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	TokenRange=2341:2344
+18	earth	earth	NOUN	NN	Number=Sing	12	conj	_	TokenRange=2345:2350
+19	.	.	PUNCT	.	_	3	punct	_	TokenRange=2351:2352
+
+# sent_id = 28
+# text = Let every tongue confess that Jesus Christ , in whom we believe and whom we await to come back to us in the near future , is Lord and God .
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	TokenRange=2353:2356
+2	every	every	DET	DT	PronType=Tot	3	det	_	TokenRange=2357:2362
+3	tongue	tongue	NOUN	NN	Number=Sing	1	obj	_	TokenRange=2363:2369
+4	confess	confess	VERB	VB	VerbForm=Inf	1	xcomp	_	TokenRange=2370:2377
+5	that	that	SCONJ	IN	_	28	mark	_	TokenRange=2378:2382
+6	Jesus	Jesus	PROPN	NNP	Number=Sing	28	nsubj	_	TokenRange=2383:2388
+7	Christ	Christ	PROPN	NNP	Number=Sing	6	flat	_	TokenRange=2389:2395
+8	,	,	PUNCT	,	_	12	punct	_	TokenRange=2396:2397
+9	in	in	ADP	IN	_	10	case	_	TokenRange=2398:2400
+10	whom	whom	PRON	WP	PronType=Rel	12	obl	_	TokenRange=2401:2405
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	TokenRange=2406:2408
+12	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	TokenRange=2409:2416
+13	and	and	CCONJ	CC	_	14	cc	_	TokenRange=2417:2420
+14	whom	whom	PRON	WP	PronType=Rel	16	obj	_	TokenRange=2421:2425
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	TokenRange=2426:2428
+16	await	await	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	TokenRange=2429:2434
+17	to	to	PART	TO	_	18	mark	_	TokenRange=2435:2437
+18	come	come	VERB	VB	VerbForm=Inf	16	xcomp	_	TokenRange=2438:2442
+19	back	back	ADV	RB	_	18	advmod	_	TokenRange=2443:2447
+20	to	to	ADP	IN	_	21	case	_	TokenRange=2448:2450
+21	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obl	_	TokenRange=2451:2453
+22	in	in	ADP	IN	_	25	case	_	TokenRange=2454:2456
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	TokenRange=2457:2460
+24	near	near	ADJ	JJ	Degree=Pos	25	amod	_	TokenRange=2461:2465
+25	future	future	NOUN	NN	Number=Sing	18	obl	_	TokenRange=2466:2472
+26	,	,	PUNCT	,	_	6	punct	_	TokenRange=2473:2474
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	TokenRange=2475:2477
+28	Lord	Lord	PROPN	NNP	Number=Sing	4	ccomp	_	TokenRange=2478:2482
+29	and	and	CCONJ	CC	_	30	cc	_	TokenRange=2483:2486
+30	God	God	PROPN	NNP	Number=Sing	28	conj	_	TokenRange=2487:2490
+31	.	.	PUNCT	.	_	1	punct	_	TokenRange=2491:2492
+
+# sent_id = 29
+# text = He is judge of the living and of the dead ; he rewards every person according to their deeds .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	TokenRange=2493:2495
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	TokenRange=2496:2498
+3	judge	judge	NOUN	NN	Number=Sing	0	root	_	TokenRange=2499:2504
+4	of	of	ADP	IN	_	6	case	_	TokenRange=2505:2507
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	TokenRange=2508:2511
+6	living	living	NOUN	NN	Number=Sing	3	nmod	_	TokenRange=2512:2518
+7	and	and	CCONJ	CC	_	10	cc	_	TokenRange=2519:2522
+8	of	of	ADP	IN	_	10	case	_	TokenRange=2523:2525
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	TokenRange=2526:2529
+10	dead	dead	ADJ	JJ	Degree=Pos	6	conj	_	TokenRange=2530:2534
+11	;	;	PUNCT	,	_	13	punct	_	TokenRange=2535:2536
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	TokenRange=2537:2539
+13	rewards	reward	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	TokenRange=2540:2547
+14	every	every	DET	DT	PronType=Tot	15	det	_	TokenRange=2548:2553
+15	person	person	NOUN	NN	Number=Sing	13	obj	_	TokenRange=2554:2560
+16	according	accord	VERB	VBG	ExtPos=ADP|Tense=Pres|VerbForm=Part	19	case	_	TokenRange=2561:2570
+17	to	to	ADP	IN	_	16	fixed	_	TokenRange=2571:2573
+18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	TokenRange=2574:2579
+19	deeds	deed	NOUN	NNS	Number=Plur	13	obl	_	TokenRange=2580:2585
+20	.	.	PUNCT	.	_	3	punct	_	TokenRange=2586:2587
+
+# sent_id = 30
+# text = He has generously poured on us the Holy Spirit , the gift and promise of immortality , who makes believers and those who listen to be children of God and co-heirs with Christ .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	TokenRange=2588:2590
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	TokenRange=2591:2594
+3	generously	generously	ADV	RB	_	4	advmod	_	TokenRange=2595:2605
+4	poured	pour	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	TokenRange=2606:2612
+5	on	on	ADP	IN	_	6	case	_	TokenRange=2613:2615
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obl	_	TokenRange=2616:2618
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	TokenRange=2619:2622
+8	Holy	holy	ADJ	JJ	Degree=Pos	9	amod	_	TokenRange=2623:2627
+9	Spirit	spirit	NOUN	NN	Number=Sing	4	obj	_	TokenRange=2628:2634
+10	,	,	PUNCT	,	_	12	punct	_	TokenRange=2635:2636
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	TokenRange=2637:2640
+12	gift	gift	NOUN	NN	Number=Sing	9	appos	_	TokenRange=2641:2645
+13	and	and	CCONJ	CC	_	14	cc	_	TokenRange=2646:2649
+14	promise	promise	NOUN	NN	Number=Sing	12	conj	_	TokenRange=2650:2657
+15	of	of	ADP	IN	_	16	case	_	TokenRange=2658:2660
+16	immortality	immortality	NOUN	NN	Number=Sing	12	nmod	_	TokenRange=2661:2672
+17	,	,	PUNCT	,	_	19	punct	_	TokenRange=2673:2674
+18	who	who	PRON	WP	PronType=Rel	19	nsubj	_	TokenRange=2675:2678
+19	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	TokenRange=2679:2684
+20	believers	believer	NOUN	NNS	Number=Plur	19	obj	_	TokenRange=2685:2694
+21	and	and	CCONJ	CC	_	22	cc	_	TokenRange=2695:2698
+22	those	that	PRON	DT	Number=Plur|PronType=Dem	20	conj	_	TokenRange=2699:2704
+23	who	who	PRON	WP	PronType=Rel	24	nsubj	_	TokenRange=2705:2708
+24	listen	listen	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	TokenRange=2709:2715
+25	to	to	PART	TO	_	27	mark	_	TokenRange=2716:2718
+26	be	be	AUX	VB	VerbForm=Inf	27	cop	_	TokenRange=2719:2721
+27	children	child	NOUN	NNS	Number=Plur	24	xcomp	_	TokenRange=2722:2730
+28	of	of	ADP	IN	_	29	case	_	TokenRange=2731:2733
+29	God	God	PROPN	NNP	Number=Sing	27	nmod	_	TokenRange=2734:2737
+30	and	and	CCONJ	CC	_	31	cc	_	TokenRange=2738:2741
+31	co-heirs	co-heir	NOUN	NNS	Number=Plur	29	conj	_	TokenRange=2742:2750
+32	with	with	ADP	IN	_	33	case	_	TokenRange=2751:2755
+33	Christ	Christ	PROPN	NNP	Number=Sing	31	nmod	_	TokenRange=2756:2762
+34	.	.	PUNCT	.	_	4	punct	_	TokenRange=2763:2764
+
+# sent_id = 31
+# text = This is the one we acknowledge and adore – one God in a trinity of the sacred name ;
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	TokenRange=2765:2769
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	TokenRange=2770:2772
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	TokenRange=2773:2776
+4	one	one	NOUN	NN	Number=Sing	0	root	_	TokenRange=2777:2780
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	TokenRange=2781:2783
+6	acknowledge	acknowledge	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	TokenRange=2784:2795
+7	and	and	CCONJ	CC	_	8	cc	_	TokenRange=2796:2799
+8	adore	adore	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	TokenRange=2800:2805
+9	–	-	PUNCT	,	_	11	punct	_	TokenRange=2806:2807
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	TokenRange=2808:2811
+11	God	God	PROPN	NNP	Number=Sing	4	appos	_	TokenRange=2812:2815
+12	in	in	ADP	IN	_	14	case	_	TokenRange=2816:2818
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	TokenRange=2819:2820
+14	trinity	trinity	NOUN	NN	Number=Sing	11	nmod	_	TokenRange=2821:2828
+15	of	of	ADP	IN	_	18	case	_	TokenRange=2829:2831
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	TokenRange=2832:2835
+17	sacred	sacred	ADJ	JJ	Degree=Pos	18	amod	_	TokenRange=2836:2842
+18	name	name	NOUN	NN	Number=Sing	14	nmod	_	TokenRange=2843:2847
+19	;	;	PUNCT	,	_	4	punct	_	SpacesAfter=\s\n\n|TokenRange=2848:2849
+
+# newpar
+# sent_id = 32
+# text = He said through the prophet : ‘Call on me in the day of your distress , and I will set you free , and you will glorify me . ’ Again he said :
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=2852:2854
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=2855:2859
+3	through	through	ADP	IN	_	5	case	_	TokenRange=2860:2867
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	TokenRange=2868:2871
+5	prophet	prophet	NOUN	NN	Number=Sing	2	obl	_	TokenRange=2872:2879
+6	:	:	PUNCT	:	_	8	punct	_	TokenRange=2880:2881
+7	‘	'	PUNCT	``	_	8	punct	_	SpaceAfter=No|TokenRange=2882:2883
+8	Call	call	VERB	VB	Mood=Imp|VerbForm=Fin	2	ccomp	_	TokenRange=2883:2887
+9	on	on	ADP	IN	_	10	case	_	TokenRange=2888:2890
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	TokenRange=2891:2893
+11	in	in	ADP	IN	_	13	case	_	TokenRange=2894:2896
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	TokenRange=2897:2900
+13	day	day	NOUN	NN	Number=Sing	8	obl	_	TokenRange=2901:2904
+14	of	of	ADP	IN	_	16	case	_	TokenRange=2905:2907
+15	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	TokenRange=2908:2912
+16	distress	distress	NOUN	NN	Number=Sing	13	nmod	_	TokenRange=2913:2921
+17	,	,	PUNCT	,	_	21	punct	_	TokenRange=2922:2923
+18	and	and	CCONJ	CC	_	21	cc	_	TokenRange=2924:2927
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	TokenRange=2928:2929
+20	will	will	AUX	MD	VerbForm=Fin	21	aux	_	TokenRange=2930:2934
+21	set	set	VERB	VB	VerbForm=Inf	8	conj	_	TokenRange=2935:2938
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	obj	_	TokenRange=2939:2942
+23	free	free	ADJ	JJ	Degree=Pos	21	xcomp	_	TokenRange=2943:2947
+24	,	,	PUNCT	,	_	28	punct	_	TokenRange=2948:2949
+25	and	and	CCONJ	CC	_	28	cc	_	TokenRange=2950:2953
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	TokenRange=2954:2957
+27	will	will	AUX	MD	VerbForm=Fin	28	aux	_	TokenRange=2958:2962
+28	glorify	glorify	VERB	VB	VerbForm=Inf	8	conj	_	TokenRange=2963:2970
+29	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	28	obj	_	TokenRange=2971:2973
+30	.	.	PUNCT	.	_	8	punct	_	TokenRange=2974:2975
+31	’	'	PUNCT	''	_	8	punct	_	TokenRange=2976:2977
+32	Again	again	ADV	RB	_	34	advmod	_	TokenRange=2978:2983
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	TokenRange=2984:2986
+34	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	TokenRange=2987:2991
+35	:	:	PUNCT	:	_	2	punct	_	TokenRange=2992:2993
+
+# sent_id = 33
+# text = ‘It is a matter of honour to reveal and tell forth the works of God . ’ ;
+1	‘	'	PUNCT	``	_	5	punct	_	SpaceAfter=No|TokenRange=2994:2995
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	TokenRange=2995:2997
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	TokenRange=2998:3000
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	TokenRange=3001:3002
+5	matter	matter	NOUN	NN	Number=Sing	0	root	_	TokenRange=3003:3009
+6	of	of	ADP	IN	_	7	case	_	TokenRange=3010:3012
+7	honour	honour	NOUN	NN	Number=Sing	5	nmod	_	TokenRange=3013:3019
+8	to	to	PART	TO	_	9	mark	_	TokenRange=3020:3022
+9	reveal	reveal	VERB	VB	VerbForm=Inf	5	csubj	_	TokenRange=3023:3029
+10	and	and	CCONJ	CC	_	11	cc	_	TokenRange=3030:3033
+11	tell	tell	VERB	VB	VerbForm=Inf	9	conj	_	TokenRange=3034:3038
+12	forth	forth	ADP	RP	_	11	compound:prt	_	TokenRange=3039:3044
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	TokenRange=3045:3048
+14	works	work	NOUN	NNS	Number=Plur	9	obj	_	TokenRange=3049:3054
+15	of	of	ADP	IN	_	16	case	_	TokenRange=3055:3057
+16	God	God	PROPN	NNP	Number=Sing	14	nmod	_	TokenRange=3058:3061
+17	.	.	PUNCT	.	_	5	punct	_	TokenRange=3062:3063
+18	’	'	PUNCT	''	_	5	punct	_	TokenRange=3064:3065
+19	;	;	PUNCT	,	_	5	punct	_	SpaceAfter=No|TokenRange=3066:3067
+
