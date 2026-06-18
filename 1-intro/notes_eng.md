@@ -1,17 +1,19 @@
-**6.Sentence_5 - Find Root:** The sentence begins with _et Dominus induxit_ — this is the main clause. **ROOT = `induxit`** (The Lord brought wrath upon us).
-Find Clause: Then comes a long chain of coordination via _et_ — all coordinated verbs depend on _induxit_ via `conj`:
+**Sentence_5  
 
-|Level|Clause|Verb|Relationship|
-|---|---|---|---|
-|0|main|**induxit**|ROOT|
-|0|conj 1|dispersit|conj → induxit|
-|0|conj 2|aperuit|conj → induxit|
-|0|conj 3|custodiuit|conj → induxit|
-|0|conj 4|muniuit|conj → induxit|
-|0|conj 5|consolatus est|conj → induxit|
 
-**Characteristics of Sentence 5**:
-**1. The chain `conj` throughout the entire period.** Patrick constructs the sentence as one long narrative—six verbs coordinate with one ROOT. This is characteristic of early medieval Latin: rhetorical stringing.
+---
+Find Root:** The sentence begins with _et Dominus induxit_ this is the main clause.   **ROOT = `induxit`** (The Lord brought wrath upon us).   
+**Find Clause:** Then comes a long chain of coordination through 'et'     
+All coordinated verbs depend on _induxit_ via `conj`:
+
+conj 1 dispersit (induxit).   
+conj 2 aperuit  (induxit).   
+conj 3 custodiuit (induxit).   
+conj 4 muniuit  (induxit).   
+conj 5 consolatus es  (induxit).  
+
+**Characteristics of Sentence 5**:    
+**1. The chain `conj` throughout the entire period.** Patrick constructs the sentence as one long narrative—six verbs coordinate with one ROOT. (This is characteristic of early medieval Latin: rhetorical stringing.).   
 **2. The relative clause `qui respexit`** is an _embedded_ clause within the chain. _qui_ refers to _Dominum Deum meum_ and introduces a whole block of three clauses (`misertus est`, `custodiuit`, `muniuit`, `consolatus est`)—all of them `conj` within the relative clause.
 **3. Double 'antequam'** — two parallel adverbial clauses with 'custodiuit': _antequam scirem eum_ and _antequam saperem uel distinguerem_. Within the second, there is also the coordination _saperem uel distinguerem_.
 **4. The comparative clause 'ut pater filium'** is ellipsis: the verb is omitted (_consolatur/confortat_ is implied). In UD, this is ellipsis-based 'advcl', 'filium' becomes 'orphan'.
