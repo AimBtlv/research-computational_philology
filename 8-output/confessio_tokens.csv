@@ -1,0 +1,425 @@
+sent_id,id,form,lemma,upos,xpos,feats,head,deprel,deps,misc
+1,1,Ego,ego,PRON,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",14,nsubj,,"{'InflClass': 'LatAnom', 'TokenRange': '0:3'}"
+1,2,Patricius,patricius,PROPN,B1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",1,appos,,"{'InflClass': 'IndEurO', 'NameType': 'Giv', 'TokenRange': '4:13'}"
+1,3,peccator,peccator,NOUN,C1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",2,appos,,"{'InflClass': 'IndEurX', 'TokenRange': '14:22'}"
+1,4,rusticissimus,rusticus,ADJ,B1|grn3|casA|gen1,"{'Case': 'Nom', 'Degree': 'Abs', 'Gender': 'Masc', 'Number': 'Sing'}",3,amod,,"{'InflClass': 'IndEurO', 'TokenRange': '23:36'}"
+1,5,et,et,CCONJ,O4,,6,cc,,{'TokenRange': '37:39'}
+1,6,minimus,paruus,ADJ,B1|grn3|casA|gen1,"{'Case': 'Nom', 'Degree': 'Abs', 'Gender': 'Masc', 'Number': 'Sing'}",4,conj,,"{'InflClass': 'IndEurO', 'TokenRange': '40:47'}"
+1,7,omnium,omnis,DET,C1|grn1|casK|gen3,"{'Case': 'Gen', 'Gender': 'Neut', 'Number': 'Plur', 'PronType': 'Tot'}",8,det,,"{'InflClass': 'IndEurI', 'TokenRange': '48:54'}"
+1,8,fidelium,fidelis,ADJ,C1|grn1|casK|gen1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Plur'}",3,nmod,,"{'InflClass': 'IndEurI', 'TokenRange': '55:63'}"
+1,9,et,et,CCONJ,O4,,10,cc,,{'TokenRange': '64:66'}
+1,10,contemptibilissimus,contemptibilis,ADJ,B1|grn3|casA|gen1,"{'Case': 'Nom', 'Degree': 'Abs', 'Gender': 'Masc', 'Number': 'Sing'}",4,conj,,"{'InflClass': 'IndEurO', 'TokenRange': '67:86'}"
+1,11,apud,apud,ADP,S4|vgr1,,13,case,,{'TokenRange': '87:91'}
+1,12,plurimos,multus,DET,C1|grn2|casM|gen1,"{'Case': 'Acc', 'Degree': 'Cmp', 'Gender': 'Masc', 'Number': 'Plur', 'NumType': 'Card', 'PronType': 'Ind'}",13,det,,"{'InflClass': 'IndEurX', 'TokenRange': '92:100'}"
+1,13,patrem,pater,NOUN,C1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",14,obj,,"{'InflClass': 'IndEurX', 'TokenRange': '101:107'}"
+1,14,habui,habeo,VERB,K3|modA|tem4|gen4,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",0,root,,"{'InflClass': 'LatE', 'TokenRange': '108:113'}"
+1,15,Calpornium,Calpornius,PROPN,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",13,appos,,"{'InflClass': 'IndEurO', 'NameType': 'Giv', 'TokenRange': '114:124'}"
+1,16,diaconum,diaconus,NOUN,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",15,appos,,"{'InflClass': 'IndEurO', 'TokenRange': '125:133'}"
+1,17,filium,filius,NOUN,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",16,appos,,"{'InflClass': 'IndEurO', 'TokenRange': '134:140'}"
+1,18,quendam,quidam,DET,F1|grn1|casD|gen1|vgr1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Ind'}",17,det,,"{'InflClass': 'LatPron', 'TokenRange': '141:148'}"
+1,19,Potiti,Potitus,PROPN,L2|modM|tem4|grp1|casB|gen1,"{'Aspect': 'Perf', 'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Pass'}",17,nmod,,"{'InflClass': 'LatX', 'InflClass[nominal]': 'IndEurO', 'TokenRange': '149:155'}"
+1,20,presbyteri,presbyterus,NOUN,B1|grn1|casB|gen1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing'}",19,appos,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '156:166'}"
+1,21,",",",",PUNCT,Punc,,20,punct,,{'TokenRange': '166:167'}
+1,22,qui,qui,PRON,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Rel'}",23,nsubj,,"{'InflClass': 'LatPron', 'TokenRange': '168:171'}"
+1,23,fuit,sum,AUX,N3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",20,acl:relcl,,"{'InflClass': 'LatAnom', 'TokenRange': '172:176'}"
+1,24,uico,uicus,NOUN,B1|grn1|casC|gen1,"{'Case': 'Dat', 'Gender': 'Masc', 'Number': 'Sing'}",23,obl,,"{'InflClass': 'IndEurO', 'TokenRange': '177:181'}"
+1,25,bannauem,bannauis,ADJ,C1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",24,appos,,"{'InflClass': 'IndEurI', 'TokenRange': '182:190'}"
+1,26,taburniae,taburnia,NOUN,A1|grn1|casB|gen2|vgr1,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing'}",25,nmod,,"{'InflClass': 'IndEurA', 'SpaceAfter': 'No', 'TokenRange': '191:200'}"
+1,27,;,;,PUNCT,Punc,,14,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '200:201'}"
+2,1,uillulam,uillula,NOUN,A1|grn1|casD|gen2|vgr1,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",4,obj,,"{'InflClass': 'IndEurA', 'TokenRange': '202:210'}"
+2,2,enim,enim,PART,O4,,4,discourse,,{'TokenRange': '211:215'}
+2,3,prope,prope,ADV,B1|grn1|casG,,4,advmod,,{'TokenRange': '216:221'}
+2,4,habuit,habeo,VERB,K3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",0,root,,"{'InflClass': 'LatE', 'SpaceAfter': 'No', 'TokenRange': '222:228'}"
+2,5,",",",",PUNCT,Punc,,9,punct,,{'TokenRange': '228:229'}
+2,6,ubi,ubi,ADV,O4,,9,advmod,,{'TokenRange': '230:233'}
+2,7,ego,ego,PRON,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",9,nsubj,,"{'InflClass': 'LatAnom', 'TokenRange': '234:237'}"
+2,8,capturam,captura,NOUN,A1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",9,obj,,"{'InflClass': 'IndEurA', 'TokenRange': '238:246'}"
+2,9,dedi,do,VERB,J3|modA|tem4|gen4,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",1,acl:relcl,,"{'InflClass': 'LatA', 'SpaceAfter': 'No', 'TokenRange': '247:251'}"
+2,10,.,.,PUNCT,Punc,,4,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '251:252'}"
+3,1,Annorum,annus,NOUN,B1|grn1|casK|gen1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Plur'}",5,nmod,,"{'InflClass': 'IndEurO', 'TokenRange': '253:260'}"
+3,2,eram,sum,AUX,N3|modA|tem2|gen4,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin'}",0,root,,"{'InflClass': 'LatAnom', 'TokenRange': '261:265'}"
+3,3,tunc,tunc,ADV,O4,,2,advmod,,"{'AdvType': 'Tim', 'TokenRange': '266:270'}"
+3,4,fere,fere,ADV,O4,,5,advmod,,{'TokenRange': '271:275'}
+3,5,sedecim,sedecim,NUM,G1,{'NumType': 'Card'},2,nummod,,"{'NumForm': 'Word', 'SpaceAfter': 'No', 'TokenRange': '276:283'}"
+3,6,.,.,PUNCT,Punc,,2,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '283:284'}"
+4,1,Deum,deus,NOUN,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",4,obj,,"{'InflClass': 'IndEurO', 'TokenRange': '285:289'}"
+4,2,enim,enim,PART,O4,,4,discourse,,{'TokenRange': '290:294'}
+4,3,uerum,uerus,ADJ,B1|grn1|casD|gen1|vgr1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",1,amod,,"{'InflClass': 'IndEurO', 'TokenRange': '295:300'}"
+4,4,ignorabam,ignoro,VERB,J2|modM|tem4|grp1|casD|gen2,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",0,root,,{'TokenRange': '301:310'}
+4,5,et,et,CCONJ,O4,,9,cc,,{'TokenRange': '311:313'}
+4,6,Hiberione,hiberio,PROPN,C1|grn1|casF|gen1,"{'Case': 'Abl', 'Gender': 'Masc', 'Number': 'Sing'}",9,obl:arg,,"{'InflClass': 'IndEurX', 'TokenRange': '314:323'}"
+4,7,in,in,ADP,S4,,8,case,,{'TokenRange': '324:326'}
+4,8,captiuitate,captiuitas,NOUN,C1|grn1|casF|gen2,"{'Case': 'Abl', 'Gender': 'Fem', 'Number': 'Sing'}",9,obl,,"{'InflClass': 'IndEurX', 'TokenRange': '327:338'}"
+4,9,adductus,adduco,VERB,N2|modM|tem4|grp1|casA|gen1,"{'Aspect': 'Perf', 'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Pass'}",4,conj,,"{'InflClass': 'LatX', 'InflClass[nominal]': 'IndEurO', 'TokenRange': '339:347'}"
+4,10,sum,sum,AUX,N3|modA|tem1|gen4,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin'}",9,aux:pass,,"{'InflClass': 'LatAnom', 'TokenRange': '348:351'}"
+4,11,cum,cum,ADP,S4|vgr1,,13,case,,{'TokenRange': '352:355'}
+4,12,tot,tot,DET,G1,"{'NumType': 'Card', 'PronType': 'Dem'}",13,det,,{'TokenRange': '356:359'}
+4,13,milia,mille,NUM,C1|grn1|casM|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur'}",9,obl,,"{'InflClass': 'IndEurI', 'TokenRange': '360:365'}"
+4,14,hominum,homo,NOUN,C1|grn1|casK|gen1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Plur'}",13,nmod,,"{'InflClass': 'IndEurX', 'SpaceAfter': 'No', 'TokenRange': '366:373'}"
+4,15,",",",",PUNCT,Punc,,17,punct,,{'TokenRange': '373:374'}
+4,16,secundum,secundum,ADP,S4,,17,case,,{'TokenRange': '375:383'}
+4,17,merita,meritum,NOUN,B1|grn1|casM|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur'}",9,obl,,"{'InflClass': 'IndEurO', 'TokenRange': '384:390'}"
+4,18,nostra,noster,DET,B1|grn1|casM|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur', 'Number[psor]': 'Plur', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",17,det,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '391:397'}"
+4,19,",",",",PUNCT,Punc,,23,punct,,{'TokenRange': '397:398'}
+4,20,quia,quia,SCONJ,O4,,23,mark,,{'TokenRange': '399:403'}
+4,21,a,ab,ADP,S4|vgr1,,22,case,,{'TokenRange': '404:405'}
+4,22,Deo,deus,NOUN,F1|grn1|casF|gen1,"{'Case': 'Abl', 'Gender': 'Masc', 'Number': 'Sing'}",23,obl:arg,,"{'InflClass': 'IndEurO', 'TokenRange': '406:409'}"
+4,23,recessimus,recedo,VERB,L3|modA|tem1|gen7,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",4,advcl,,"{'InflClass': 'LatX', 'TokenRange': '410:420'}"
+4,24,et,et,CCONJ,O4,,28,cc,,{'TokenRange': '421:423'}
+4,25,praecepta,praeceptum,NOUN,B1|grn1|casM|gen3|vgr1,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur'}",28,obj,,"{'InflClass': 'IndEurO', 'TokenRange': '424:433'}"
+4,26,eius,is,PRON,F1|grn1|casB|gen1|vgr2,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",25,nmod,,"{'InflClass': 'LatPron', 'TokenRange': '434:438'}"
+4,27,non,non,PART,O4,{'Polarity': 'Neg'},28,advmod:neg,,{'TokenRange': '439:442'}
+4,28,custodiuimus,custodio,VERB,M3|modA|tem1|gen7,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",23,conj,,{'TokenRange': '443:455'}
+4,29,et,et,CCONJ,O4,,33,cc,,{'TokenRange': '456:458'}
+4,30,sacerdotibus,sacerdos,NOUN,C1|grn1|casL|gen1,"{'Case': 'Dat', 'Gender': 'Masc', 'Number': 'Plur'}",33,obl:arg,,"{'InflClass': 'IndEurX', 'TokenRange': '459:471'}"
+4,31,nostris,noster,DET,B1|grn1|casL|gen1,"{'Case': 'Abl', 'Gender': 'Neut', 'Number': 'Plur', 'Number[psor]': 'Plur', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",30,det,,"{'InflClass': 'IndEurO', 'TokenRange': '472:479'}"
+4,32,non,non,PART,O4,{'Polarity': 'Neg'},33,advmod:neg,,{'TokenRange': '480:483'}
+4,33,oboedientes,oboedio,VERB,M2|modD|tem1|grp1|casJ|gen1,"{'Aspect': 'Imp', 'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part', 'Voice': 'Act'}",23,conj,,"{'InflClass[nominal]': 'IndEurI', 'TokenRange': '484:495'}"
+4,34,fuimus,sum,AUX,N3|modA|tem1|gen7,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",33,aux,,"{'InflClass': 'LatAnom', 'SpaceAfter': 'No', 'TokenRange': '496:502'}"
+4,35,",",",",PUNCT,Punc,,40,punct,,{'TokenRange': '502:503'}
+4,36,qui,qui,PRON,F1|grn1|casJ|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Plur', 'PronType': 'Rel'}",40,nsubj,,"{'InflClass': 'LatPron', 'TokenRange': '504:507'}"
+4,37,nos,nos,PRON,F1|grn1|casJ|gen1,"{'Case': 'Nom', 'Number': 'Plur', 'Person': '1', 'PronType': 'Prs'}",40,obj,,"{'InflClass': 'LatAnom', 'TokenRange': '508:511'}"
+4,38,nostram,noster,DET,A1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing', 'Number[psor]': 'Plur', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",39,det,,"{'InflClass': 'IndEurA', 'TokenRange': '512:519'}"
+4,39,salutem,salus,NOUN,C1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",40,obj,,"{'InflClass': 'IndEurX', 'TokenRange': '520:527'}"
+4,40,admonebant,admoneo,VERB,K3|modA|tem2|gen9,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",30,acl:relcl,,"{'InflClass': 'LatE', 'SpaceAfter': 'No', 'TokenRange': '528:538'}"
+4,41,:,:,PUNCT,Punc,,4,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '538:539'}"
+5,1,et,et,CCONJ,O4,,3,cc,,{'TokenRange': '540:542'}
+5,2,Dominus,dominus,NOUN,B1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",3,nsubj,,"{'InflClass': 'IndEurO', 'TokenRange': '543:550'}"
+5,3,induxit,induco,VERB,N3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",0,root,,"{'InflClass': 'LatX', 'TokenRange': '551:558'}"
+5,4,super,super,ADP,S4,,5,case,,{'TokenRange': '559:564'}
+5,5,nos,nos,PRON,F1|grn1|casM|gen1,"{'Case': 'Acc', 'Number': 'Plur', 'Person': '1', 'PronType': 'Prs'}",3,obl,,"{'InflClass': 'LatAnom', 'TokenRange': '565:568'}"
+5,6,iram,ira,NOUN,A1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",3,obj,,"{'InflClass': 'IndEurA', 'TokenRange': '569:573'}"
+5,7,animationis,animatio,NOUN,C1|grn1|casB|gen2,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing'}",6,nmod,,"{'InflClass': 'IndEurX', 'TokenRange': '574:585'}"
+5,8,suae,suus,DET,A1|grn1|casB|gen2|vgr1,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing', 'Person[psor]': '3', 'Poss': 'Yes', 'PronType': 'Prs', 'Reflex': 'Yes'}",7,det,,"{'InflClass': 'IndEurA', 'TokenRange': '586:590'}"
+5,9,et,et,CCONJ,O4,,10,cc,,{'TokenRange': '591:593'}
+5,10,dispersit,dispergo,VERB,L3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",3,conj,,"{'InflClass': 'LatX', 'TokenRange': '594:603'}"
+5,11,nos,nos,PRON,F1|grn1|casM|gen1,"{'Case': 'Acc', 'Number': 'Plur', 'Person': '1', 'PronType': 'Prs'}",10,obj,,"{'InflClass': 'LatAnom', 'TokenRange': '604:607'}"
+5,12,in,in,ADP,S4,,13,case,,{'TokenRange': '608:610'}
+5,13,gentibus,gens,NOUN,C1|grn1|casO|gen2,"{'Case': 'Abl', 'Gender': 'Fem', 'Number': 'Plur'}",10,obl,,"{'InflClass': 'IndEurI', 'TokenRange': '611:619'}"
+5,14,multis,multus,DET,A1|grn1|casO|gen2,"{'Case': 'Abl', 'Gender': 'Fem', 'Number': 'Plur', 'NumType': 'Card', 'PronType': 'Ind'}",13,det,,"{'InflClass': 'IndEurA', 'TokenRange': '620:626'}"
+5,15,etiam,etiam,ADV,O4|vgr1,,18,advmod:emph,,"{'Compound': 'Yes', 'TokenRange': '627:632'}"
+5,16,usque,usque,ADP,S4,,18,case,,{'TokenRange': '633:638'}
+5,17,ad,ad,ADP,S4,,18,case,,{'TokenRange': '639:641'}
+5,18,ultimum,ultimus,ADJ,B1|grn3|casD|gen3,"{'Case': 'Acc', 'Degree': 'Abs', 'Gender': 'Neut', 'Number': 'Sing'}",10,obl,,"{'InflClass': 'IndEurO', 'TokenRange': '642:649'}"
+5,19,terrae,terra,NOUN,A1|grn1|casB|gen2|vgr1,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing'}",18,nmod,,"{'InflClass': 'IndEurA', 'SpaceAfter': 'No', 'TokenRange': '650:656'}"
+5,20,",",",",PUNCT,Punc,,26,punct,,{'TokenRange': '656:657'}
+5,21,ubi,ubi,SCONJ,O4,,26,mark,,{'TokenRange': '658:661'}
+5,22,nunc,nunc,ADV,O4,,26,advmod:tmod,,"{'AdvType': 'Tim', 'TokenRange': '662:666'}"
+5,23,paruitas,paruitas,NOUN,C1|grn1|casA|gen2,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing'}",26,nsubj:pass,,"{'InflClass': 'IndEurX', 'TokenRange': '667:675'}"
+5,24,mea,meus,DET,F1|grn1|casA|gen2,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Number[psor]': 'Sing', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",23,det,,"{'InflClass': 'IndEurA', 'TokenRange': '676:679'}"
+5,25,esse,sum,AUX,N3|modH|tem1,"{'Aspect': 'Imp', 'VerbForm': 'Inf'}",26,xcomp,,"{'InflClass': 'LatAnom', 'TokenRange': '680:684'}"
+5,26,uidetur,uideo,VERB,K3|modJ|tem1|gen6|vgr1,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Pass'}",3,advcl,,"{'InflClass': 'LatE', 'TokenRange': '685:692'}"
+5,27,inter,inter,ADP,S4,,28,case,,{'TokenRange': '693:698'}
+5,28,alienigenas,alienigena,NOUN,A1|grn1|casM|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Plur'}",26,obl,,"{'InflClass': 'IndEurA', 'SpaceAfter': 'No', 'TokenRange': '699:710'}"
+5,29,",",",",PUNCT,Punc,,33,punct,,{'TokenRange': '710:711'}
+5,30,et,et,CCONJ,O4,,33,cc,,{'TokenRange': '712:714'}
+5,31,ibi,ibi,ADV,O4,,33,advmod:lmod,,"{'AdvType': 'Loc', 'TokenRange': '715:718'}"
+5,32,Dominus,dominus,NOUN,B1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",33,nsubj,,"{'InflClass': 'IndEurO', 'TokenRange': '719:726'}"
+5,33,aperuit,aperio,VERB,K3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",3,conj,,{'TokenRange': '727:734'}
+5,34,sensum,sensus,NOUN,D1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",33,obj,,"{'InflClass': 'IndEurU', 'TokenRange': '735:741'}"
+5,35,incredulitatis,incredulitas,NOUN,C1|grn1|casB|gen2,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing'}",34,nmod,,"{'InflClass': 'IndEurX', 'TokenRange': '742:756'}"
+5,36,meae,meus,DET,A1|grn1|casB|gen2|vgr1,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing', 'Number[psor]': 'Sing', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",35,det,,"{'SpaceAfter': 'No', 'TokenRange': '757:761'}"
+5,37,",",",",PUNCT,Punc,,41,punct,,{'TokenRange': '761:762'}
+5,38,ut,ut,SCONJ,O4|vgr1,{'PronType': 'Rel'},41,mark,,{'TokenRange': '763:765'}
+5,39,uel,uel,CCONJ,O4|vgr1,,41,advmod,,{'TokenRange': '766:769'}
+5,40,sero,sero,ADV,B1|grn1|casG,,41,advmod,,{'TokenRange': '770:774'}
+5,41,rememorarem,rememoro,VERB,J3|modB|tem2|gen6,"{'Aspect': 'Imp', 'Mood': 'Sub', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",33,advcl,,{'TokenRange': '775:786'}
+5,42,delicta,delinquo,VERB,L2|modM|tem4|grp1|casM|gen3,"{'Aspect': 'Perf', 'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur', 'VerbForm': 'Part', 'Voice': 'Pass'}",41,obj,,"{'InflClass': 'LatX', 'InflClass[nominal]': 'IndEurO', 'TokenRange': '787:794'}"
+5,43,mea,meus,DET,F1|grn1|casM|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur', 'Number[psor]': 'Sing', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",42,det,,"{'InflClass': 'IndEurO', 'TokenRange': '795:798'}"
+5,44,et,et,CCONJ,O4,,46,cc,,{'TokenRange': '799:801'}
+5,45,ut,ut,SCONJ,O4|vgr1,{'PronType': 'Rel'},46,mark,,{'TokenRange': '802:804'}
+5,46,conuerterem,conuerto,VERB,L3|modB|tem2|gen6,"{'Aspect': 'Imp', 'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",41,conj,,"{'InflClass': 'LatX', 'TokenRange': '805:816'}"
+5,47,toto,totus,DET,F1|grn1|casF|gen3,"{'Case': 'Abl', 'Gender': 'Neut', 'Number': 'Sing', 'PronType': 'Tot'}",48,det,,"{'InflClass': 'LatPron', 'TokenRange': '817:821'}"
+5,48,corde,cor,NOUN,C1|grn1|casF|gen3,"{'Case': 'Abl', 'Gender': 'Neut', 'Number': 'Sing'}",46,obl,,"{'InflClass': 'IndEurI', 'TokenRange': '822:827'}"
+5,49,ad,ad,ADP,S4,,50,case,,{'TokenRange': '828:830'}
+5,50,Dominum,dominus,NOUN,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",46,obl:arg,,"{'InflClass': 'IndEurO', 'TokenRange': '831:838'}"
+5,51,Deum,deus,NOUN,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",50,appos,,"{'InflClass': 'IndEurO', 'TokenRange': '839:843'}"
+5,52,meum,meus,DET,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'Number[psor]': 'Sing', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",51,det,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '844:848'}"
+5,53,",",",",PUNCT,Punc,,55,punct,,{'TokenRange': '848:849'}
+5,54,qui,qui,PRON,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Rel'}",55,nsubj,,"{'InflClass': 'LatPron', 'TokenRange': '850:853'}"
+5,55,respexit,respicio,VERB,L3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",50,acl:relcl,,"{'InflClass': 'LatX', 'TokenRange': '854:862'}"
+5,56,humilitatem,humilitas,NOUN,C1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",55,obj,,"{'InflClass': 'IndEurX', 'TokenRange': '863:874'}"
+5,57,meam,meus,DET,F1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing', 'Number[psor]': 'Sing', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",56,det,,"{'InflClass': 'IndEurA', 'TokenRange': '875:879'}"
+5,58,et,et,CCONJ,O4,,59,cc,,{'TokenRange': '880:882'}
+5,59,misertus,misereor,VERB,L2|modM|tem4|grp1|casA|gen1,"{'Aspect': 'Perf', 'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Pass'}",55,conj,,"{'InflClass': 'LatX', 'InflClass[nominal]': 'IndEurO', 'TokenRange': '883:891'}"
+5,60,est,sum,AUX,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",59,aux:pass,,"{'InflClass': 'LatAnom', 'TokenRange': '892:895'}"
+5,61,adolescentiae,adolescentia,NOUN,A1|grn1|casB|gen2|vgr1,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing'}",59,obl:arg,,"{'InflClass': 'IndEurA', 'TokenRange': '896:909'}"
+5,62,et,et,CCONJ,O4,,63,cc,,{'TokenRange': '910:912'}
+5,63,ignorantiae,ignorantia,NOUN,A1|grn1|casB|gen2|vgr1,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing'}",61,conj,,"{'InflClass': 'IndEurA', 'TokenRange': '913:924'}"
+5,64,meae,meus,DET,A1|grn1|casB|gen2|vgr1,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing', 'Number[psor]': 'Plur', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",63,det,,"{'InflClass': 'IndEurA', 'TokenRange': '925:929'}"
+5,65,et,et,CCONJ,O4,,66,cc,,{'TokenRange': '930:932'}
+5,66,custodiuit,custodio,VERB,M3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",55,conj,,{'TokenRange': '933:943'}
+5,67,me,ego,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",66,obj,,"{'InflClass': 'LatAnom', 'TokenRange': '944:946'}"
+5,68,antequam,antequam,SCONJ,O4,,69,mark,,{'TokenRange': '947:955'}
+5,69,scirem,scio,VERB,M3|modB|tem2|gen6,"{'Aspect': 'Imp', 'Mood': 'Sub', 'Number': 'Sing', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",66,advcl,,{'TokenRange': '956:962'}
+5,70,eum,is,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",69,obj,,"{'InflClass': 'LatPron', 'TokenRange': '963:966'}"
+5,71,et,et,CCONJ,O4,,73,cc,,{'TokenRange': '967:969'}
+5,72,antequam,antequam,SCONJ,O4,,73,mark,,{'TokenRange': '970:978'}
+5,73,saperem,sapio,VERB,C1|grn1|casD|gen2,"{'Aspect': 'Imp', 'Mood': 'Sub', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",69,conj,,"{'InflClass': 'LatA', 'TokenRange': '979:986'}"
+5,74,uel,uel,CCONJ,O4|vgr1,,75,cc,,{'TokenRange': '987:990'}
+5,75,distinguerem,distinguo,VERB,L3|modB|tem2|gen6,"{'Aspect': 'Imp', 'Mood': 'Sub', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",69,conj,,"{'InflClass': 'LatA', 'TokenRange': '991:1003'}"
+5,76,inter,inter,ADP,S4,,77,case,,{'TokenRange': '1004:1009'}
+5,77,bonum,bonum,NOUN,B1|grn1|casD|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Sing'}",73,obl:arg,,"{'InflClass': 'IndEurO', 'TokenRange': '1010:1015'}"
+5,78,et,et,CCONJ,O4,,79,cc,,{'TokenRange': '1016:1018'}
+5,79,malum,malum,NOUN,B1|grn1|casD|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Sing'}",77,conj,,"{'InflClass': 'IndEurO', 'TokenRange': '1019:1024'}"
+5,80,et,et,CCONJ,O4,,81,cc,,{'TokenRange': '1025:1027'}
+5,81,muniuit,munio,VERB,M3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",69,conj,,{'TokenRange': '1028:1035'}
+5,82,me,ego,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",81,obj,,"{'InflClass': 'LatAnom', 'TokenRange': '1036:1038'}"
+5,83,et,et,CCONJ,O4,,84,cc,,{'TokenRange': '1039:1041'}
+5,84,consolatus,consolor,VERB,J2|modM|tem4|grp1|casA|gen1,"{'Aspect': 'Perf', 'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Pass'}",69,conj,,"{'InflClass': 'LatA', 'InflClass[nominal]': 'IndEurO', 'TokenRange': '1042:1052'}"
+5,85,est,sum,AUX,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",84,aux:pass,,"{'InflClass': 'LatAnom', 'TokenRange': '1053:1056'}"
+5,86,me,ego,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",84,obj,,"{'InflClass': 'LatAnom', 'TokenRange': '1057:1059'}"
+5,87,ut,ut,ADV,O4|vgr1,{'PronType': 'Rel'},88,mark,,{'TokenRange': '1060:1062'}
+5,88,pater,pater,NOUN,C1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",84,obl,,"{'InflClass': 'IndEurX', 'TokenRange': '1063:1068'}"
+5,89,filium,filius,NOUN,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",88,obj,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '1069:1075'}"
+5,90,.,.,PUNCT,Punc,,3,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '1075:1076'}"
+6,1,Unde,unde,ADV,O4,{'PronType': 'Rel'},5,advmod:lmod,,"{'AdvType': 'Loc', 'TokenRange': '1077:1081'}"
+6,2,autem,autem,PART,O4,,5,discourse,,{'TokenRange': '1082:1087'}
+6,3,tacere,taceo,VERB,K3|modH|tem1,"{'Aspect': 'Imp', 'VerbForm': 'Inf', 'Voice': 'Act'}",5,xcomp,,"{'InflClass': 'LatE', 'TokenRange': '1088:1094'}"
+6,4,non,non,PART,O4,{'Polarity': 'Neg'},5,advmod:neg,,{'TokenRange': '1095:1098'}
+6,5,possum,possum,VERB,N3|modA|tem1|gen4,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",0,root,,"{'InflClass': 'LatAnom', 'SpaceAfter': 'No', 'TokenRange': '1099:1105'}"
+6,6,",",",",PUNCT,Punc,,8,punct,,{'TokenRange': '1105:1106'}
+6,7,neque,neque,CCONJ,O4,{'Polarity': 'Neg'},8,cc,,{'TokenRange': '1107:1112'}
+6,8,expedit,expedio,VERB,M3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",5,conj,,{'TokenRange': '1113:1120'}
+6,9,quidem,quidem,PART,O4,,8,advmod,,"{'SpaceAfter': 'No', 'TokenRange': '1121:1127'}"
+6,10,",",",",PUNCT,Punc,,12,punct,,{'TokenRange': '1127:1128'}
+6,11,tanta,tantus,DET,B1|grn1|casM|gen3,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'NumType': 'Card', 'PronType': 'Dem'}",12,det,,"{'InflClass': 'IndEurA', 'TokenRange': '1129:1134'}"
+6,12,beneficia,beneficium,NOUN,B1|grn1|casM|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur'}",3,obj,,"{'InflClass': 'IndEurO', 'TokenRange': '1135:1144'}"
+6,13,et,et,CCONJ,O4,,15,cc,,{'TokenRange': '1145:1147'}
+6,14,tantam,tantus,DET,A1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing', 'NumType': 'Card', 'PronType': 'Dem'}",15,det,,"{'InflClass': 'IndEurA', 'TokenRange': '1148:1154'}"
+6,15,gratiam,gratia,NOUN,A1|grn1|casD|gen2|vgr1,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",12,conj,,"{'InflClass': 'IndEurA', 'TokenRange': '1155:1162'}"
+6,16,quam,qui,PRON,F1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Rel'}",19,obj,,"{'InflClass': 'LatPron', 'TokenRange': '1163:1167'}"
+6,17,mihi,ego,PRON,F1|grn1|casC|gen1|vgr1,"{'Case': 'Dat', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",19,iobj,,"{'InflClass': 'LatAnom', 'TokenRange': '1168:1172'}"
+6,18,Dominus,dominus,NOUN,B1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",20,nsubj:pass,,"{'InflClass': 'IndEurO', 'TokenRange': '1173:1180'}"
+6,19,praestare,praesto,VERB,J3|modH|tem1|vgr1,"{'Aspect': 'Imp', 'VerbForm': 'Inf', 'Voice': 'Act'}",20,xcomp,,"{'InflClass': 'LatA', 'TokenRange': '1181:1190'}"
+6,20,dignatus,dignor,VERB,J2|modM|tem4|grp1|casA|gen1,"{'Aspect': 'Perf', 'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Pass'}",15,acl:relcl,,"{'InflClass': 'LatA', 'InflClass[nominal]': 'IndEurO', 'TokenRange': '1191:1199'}"
+6,21,est,sum,AUX,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",20,aux:pass,,"{'InflClass': 'LatAnom', 'TokenRange': '1200:1203'}"
+6,22,in,in,ADP,S4,,23,case,,{'TokenRange': '1204:1206'}
+6,23,terra,terra,NOUN,A1|grn1|casF|gen2,"{'Case': 'Abl', 'Gender': 'Fem', 'Number': 'Sing'}",20,obl,,"{'InflClass': 'IndEurA', 'TokenRange': '1207:1212'}"
+6,24,captiuitatis,captiuitas,NOUN,C1|grn1|casB|gen2,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing'}",23,nmod,,"{'InflClass': 'IndEurX', 'TokenRange': '1213:1225'}"
+6,25,meae,meus,DET,A1|grn1|casB|gen2|vgr1,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing', 'Number[psor]': 'Plur', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",24,det,,"{'InflClass': 'IndEurA', 'SpaceAfter': 'No', 'TokenRange': '1226:1230'}"
+6,26,;,;,PUNCT,Punc,,5,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '1230:1231'}"
+7,1,quia,quia,SCONJ,O4,,4,mark,,{'TokenRange': '1232:1236'}
+7,2,haec,hic,DET,F1|grn1|casA|gen2|vgr1,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Dem'}",4,amod,,"{'InflClass': 'LatPron', 'TokenRange': '1237:1241'}"
+7,3,est,sum,AUX,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",4,cop,,"{'InflClass': 'LatAnom', 'TokenRange': '1242:1245'}"
+7,4,retributio,retributio,NOUN,C1|grn1|casA|gen2|vgr1,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing'}",0,root,,"{'InflClass': 'IndEurX', 'TokenRange': '1246:1256'}"
+7,5,nostra,noster,DET,A1|grn1|casA|gen2,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'Number[psor]': 'Plur', 'Person[psor]': '1', 'Poss': 'Yes', 'PronType': 'Prs'}",4,det,,"{'InflClass': 'IndEurA', 'SpaceAfter': 'No', 'TokenRange': '1257:1263'}"
+7,6,",",",",PUNCT,Punc,,13,punct,,{'TokenRange': '1263:1264'}
+7,7,ut,ut,SCONJ,O4|vgr1,{'PronType': 'Rel'},13,mark,,{'TokenRange': '1265:1267'}
+7,8,post,post,ADP,S4,,9,case,,{'TokenRange': '1268:1272'}
+7,9,correptionem,correptio,NOUN,C1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",13,obl,,"{'InflClass': 'IndEurX', 'TokenRange': '1273:1285'}"
+7,10,uel,uel,CCONJ,O4|vgr1,,11,cc,,{'TokenRange': '1286:1289'}
+7,11,agnitionem,agnitio,NOUN,C1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",9,conj,,"{'InflClass': 'IndEurX', 'TokenRange': '1290:1300'}"
+7,12,Dei,deus,NOUN,F1|grn1|casB|gen1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing'}",11,nmod,,"{'InflClass': 'IndEurO', 'TokenRange': '1301:1304'}"
+7,13,exaltare,exalto,VERB,J3|modH|tem1,"{'Aspect': 'Imp', 'VerbForm': 'Inf', 'Voice': 'Act'}",4,acl,,"{'InflClass': 'LatA', 'TokenRange': '1305:1313'}"
+7,14,et,et,CCONJ,O4,,15,cc,,{'TokenRange': '1314:1316'}
+7,15,confiteri,confiteor,VERB,K3|modQ|tem1,"{'Aspect': 'Imp', 'VerbForm': 'Inf', 'Voice': 'Pass'}",13,conj,,"{'InflClass': 'LatE', 'TokenRange': '1317:1326'}"
+7,16,mirabilia,mirabilis,ADJ,C1|grn1|casM|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur'}",13,obj,,"{'InflClass': 'IndEurI', 'TokenRange': '1327:1336'}"
+7,17,eius,is,PRON,F1|grn1|casB|gen1|vgr2,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",16,nmod,,"{'InflClass': 'LatPron', 'TokenRange': '1337:1341'}"
+7,18,coram,coram,ADP,S4,,20,case,,{'TokenRange': '1342:1347'}
+7,19,omni,omnis,DET,C1|grn1|casF|gen2,"{'Case': 'Abl', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Tot'}",20,det,,"{'InflClass': 'IndEurI', 'TokenRange': '1348:1352'}"
+7,20,natione,natio,NOUN,C1|grn1|casF|gen2|comH|vgr1,"{'Case': 'Abl', 'Gender': 'Fem', 'Number': 'Sing'}",13,obl,,"{'InflClass': 'IndEurX', 'TokenRange': '1353:1360'}"
+7,21,quae,qui,PRON,F1|grn1|casA|gen2|vgr1,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Rel'}",22,nsubj,,"{'InflClass': 'LatPron', 'TokenRange': '1361:1365'}"
+7,22,est,sum,AUX,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",20,acl:relcl,,"{'InflClass': 'LatAnom', 'TokenRange': '1366:1369'}"
+7,23,sub,sub,ADP,S4,,25,case,,{'TokenRange': '1370:1373'}
+7,24,omni,omnis,DET,C1|grn1|casF|gen3,"{'Case': 'Abl', 'Gender': 'Neut', 'Number': 'Sing', 'PronType': 'Tot'}",25,amod,,"{'InflClass': 'IndEurI', 'TokenRange': '1374:1378'}"
+7,25,caelo,caelum,NOUN,B1|grn1|casF|gen3|vgr1,"{'Case': 'Abl', 'Gender': 'Neut', 'Number': 'Sing'}",22,obl,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '1379:1384'}"
+7,26,.,.,PUNCT,Punc,,4,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '1384:1385'}"
+8,1,Quia,quia,SCONJ,O4,,5,mark,,{'TokenRange': '1386:1390'}
+8,2,non,non,PART,O4,{'Polarity': 'Neg'},5,amod:neg,,{'TokenRange': '1391:1394'}
+8,3,est,sum,AUX,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",5,cop,,"{'InflClass': 'LatAnom', 'TokenRange': '1395:1398'}"
+8,4,alius,alius,DET,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Con'}",5,amod,,"{'InflClass': 'LatPron', 'TokenRange': '1399:1404'}"
+8,5,Deus,deus,NOUN,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",0,root,,"{'InflClass': 'IndEurO', 'TokenRange': '1405:1409'}"
+8,6,nec,nec,CCONJ,O4,,8,cc,,{'TokenRange': '1410:1413'}
+8,7,umquam,umquam,ADV,O4|vgr1,,8,advmod,,"{'Compound': 'Yes', 'TokenRange': '1414:1420'}"
+8,8,fuit,sum,AUX,N3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin'}",5,conj,,"{'InflClass': 'LatAnom', 'TokenRange': '1421:1425'}"
+8,9,nec,nec,CCONJ,O4,,10,cc,,{'TokenRange': '1426:1429'}
+8,10,ante,ante,ADV,S4,,8,advmod:tmod,,{'TokenRange': '1430:1434'}
+8,11,nec,nec,CCONJ,O4,,12,cc,,{'TokenRange': '1435:1438'}
+8,12,erit,sum,AUX,N3|modA|tem3|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin'}",8,conj,,"{'InflClass': 'LatAnom', 'TokenRange': '1439:1443'}"
+8,13,post,post,ADP,S4,,14,case,,{'TokenRange': '1444:1448'}
+8,14,haec,hic,DET,F1|grn1|casM|gen3|vgr1,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur', 'PronType': 'Dem'}",12,obl,,"{'InflClass': 'LatPron', 'TokenRange': '1449:1453'}"
+8,15,praeter,praeter,ADP,S4|vgr1,,16,case,,{'TokenRange': '1454:1461'}
+8,16,Deum,deus,NOUN,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",5,obl,,"{'InflClass': 'IndEurO', 'TokenRange': '1462:1466'}"
+8,17,Patrem,pater,NOUN,C1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",16,appos,,"{'InflClass': 'IndEurX', 'TokenRange': '1467:1473'}"
+8,18,ingenitum,ingenitus,ADJ,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",17,amod,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '1474:1483'}"
+8,19,",",",",PUNCT,Punc,,21,punct,,{'TokenRange': '1483:1484'}
+8,20,sine,sine,ADP,S4,,21,case,,{'TokenRange': '1485:1489'}
+8,21,principio,principium,NOUN,B1|grn1|casF|gen3,"{'Case': 'Abl', 'Gender': 'Neut', 'Number': 'Sing'}",17,obl,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '1490:1499'}"
+8,22,",",",",PUNCT,Punc,,27,punct,,{'TokenRange': '1499:1500'}
+8,23,a,ab,ADP,S4|vgr1,,24,case,,{'TokenRange': '1501:1502'}
+8,24,quo,qui,PRON,F1|grn1|casF|gen1,"{'Case': 'Abl', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Rel'}",27,obl,,"{'InflClass': 'LatPron', 'TokenRange': '1503:1506'}"
+8,25,est,sum,AUX,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",27,cop,,"{'InflClass': 'LatAnom', 'TokenRange': '1507:1510'}"
+8,26,omne,omnis,DET,C1|grn1|casA|gen3,"{'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing', 'PronType': 'Tot'}",27,det,,"{'InflClass': 'IndEurI', 'TokenRange': '1511:1515'}"
+8,27,principium,principium,NOUN,B1|grn1|casA|gen3,"{'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",17,acl:relcl,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '1516:1526'}"
+8,28,",",",",PUNCT,Punc,,30,punct,,{'TokenRange': '1526:1527'}
+8,29,omnia,omnis,DET,C1|grn1|casM|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur', 'PronType': 'Tot'}",30,obj,,"{'InflClass': 'IndEurI', 'TokenRange': '1528:1533'}"
+8,30,tenentem,teneo,VERB,K2|modD|tem1|grp1|casD|gen2,"{'Aspect': 'Imp', 'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Act'}",17,acl,,"{'InflClass': 'LatE', 'InflClass[nominal]': 'IndEurI', 'SpaceAfter': 'No', 'TokenRange': '1534:1542'}"
+8,31,",",",",PUNCT,Punc,,33,punct,,{'TokenRange': '1542:1543'}
+8,32,ut,ut,SCONJ,O4|vgr1,{'PronType': 'Rel'},33,mark,,{'TokenRange': '1544:1546'}
+8,33,didicimus,disco,VERB,N3|modA|tem4|gen7,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",5,advcl,,"{'InflClass': 'LatX', 'SpaceAfter': 'No', 'TokenRange': '1547:1556'}"
+8,34,;,;,PUNCT,Punc,,5,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '1556:1557'}"
+9,1,et,et,CCONJ,O4,,13,cc,,{'TokenRange': '1558:1560'}
+9,2,huius,hic,DET,F1|grn1|casB|gen1|vgr2,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",3,nmod,,"{'InflClass': 'LatPron', 'TokenRange': '1561:1566'}"
+9,3,filium,filius,NOUN,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",13,obj,,"{'InflClass': 'IndEurO', 'TokenRange': '1567:1573'}"
+9,4,Iesum,iesus,PROPN,F1|grn1|casD|gen1|vgr1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",3,compound,,"{'InflClass': 'IndEurU', 'NameType': 'Giv', 'TokenRange': '1574:1579'}"
+9,5,Christum,Christus,PROPN,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",4,flat,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '1580:1588'}"
+9,6,",",",",PUNCT,Punc,,13,punct,,{'TokenRange': '1588:1589'}
+9,7,quem,qui,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Rel'}",12,nsubj,,"{'InflClass': 'LatPron', 'TokenRange': '1590:1594'}"
+9,8,cum,cum,ADP,S4|vgr1,,9,case,,{'TokenRange': '1595:1598'}
+9,9,Patre,pater,NOUN,C1|grn1|casF|gen1,"{'Case': 'Abl', 'Gender': 'Masc', 'Number': 'Sing'}",12,obl,,"{'InflClass': 'IndEurX', 'TokenRange': '1599:1604'}"
+9,10,scilicet,scilicet,CCONJ,O4,,12,advmod,,"{'Compound': 'Yes', 'TokenRange': '1605:1613'}"
+9,11,semper,semper,ADV,O4,,12,advmod,,"{'AdvType': 'Tim', 'TokenRange': '1614:1620'}"
+9,12,fuisse,sum,AUX,N3|modH|tem4,"{'Aspect': 'Perf', 'VerbForm': 'Inf'}",13,ccomp,,"{'InflClass': 'LatAnom', 'TokenRange': '1621:1627'}"
+9,13,testamur,testor,VERB,J3|modJ|tem1|gen7,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Pass'}",0,root,,"{'InflClass': 'LatA', 'SpaceAfter': 'No', 'TokenRange': '1628:1636'}"
+9,14,",",",",PUNCT,Punc,,23,punct,,{'TokenRange': '1636:1637'}
+9,15,ante,ante,ADP,S4,,16,case,,{'TokenRange': '1638:1642'}
+9,16,originem,origo,NOUN,C1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",23,obl,,"{'InflClass': 'IndEurX', 'TokenRange': '1643:1651'}"
+9,17,saeculi,saeculum,NOUN,B1|grn1|casB|gen3|vgr1,"{'Case': 'Gen', 'Gender': 'Neut', 'Number': 'Sing'}",16,nmod,,"{'InflClass': 'IndEurO', 'TokenRange': '1652:1659'}"
+9,18,spiritaliter,spiritaliter,ADV,C1|grn1|casG,,23,advmod,,{'TokenRange': '1660:1672'}
+9,19,apud,apud,ADP,S4|vgr1,,20,case,,{'TokenRange': '1673:1677'}
+9,20,Patrem,pater,NOUN,C1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",23,obl,,"{'InflClass': 'IndEurX', 'TokenRange': '1678:1684'}"
+9,21,et,et,CCONJ,O4,,23,cc,,{'TokenRange': '1685:1687'}
+9,22,inenarrabiliter,inenarrabiliter,ADV,C1|grn1|casG,,23,advmod,,{'TokenRange': '1688:1703'}
+9,23,genitum,gigno,VERB,L2|modM|tem4|grp1|casD|gen1,"{'Aspect': 'Perf', 'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,acl,,"{'InflClass': 'LatX', 'InflClass[nominal]': 'IndEurO', 'TokenRange': '1704:1711'}"
+9,24,ante,ante,ADP,S4,,26,case,,{'TokenRange': '1712:1716'}
+9,25,omne,omnis,DET,C1|grn1|casD|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Sing', 'PronType': 'Tot'}",26,det,,"{'InflClass': 'IndEurI', 'TokenRange': '1717:1721'}"
+9,26,principium,principium,NOUN,B1|grn1|casD|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Sing'}",23,obl,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '1722:1732'}"
+9,27,",",",",PUNCT,Punc,,31,punct,,{'TokenRange': '1732:1733'}
+9,28,et,et,CCONJ,O4,,31,cc,,{'TokenRange': '1734:1736'}
+9,29,per,per,ADP,S4,,30,case,,{'TokenRange': '1737:1740'}
+9,30,ipsum,ipse,DET,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",31,obl,,"{'Form': 'Emp', 'InflClass': 'LatPron', 'TokenRange': '1741:1746'}"
+9,31,facta,facio,VERB,N2|modM|tem4|grp1|casJ|gen3,"{'Aspect': 'Perf', 'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Plur', 'VerbForm': 'Part', 'Voice': 'Pass'}",12,conj,,"{'InflClass': 'LatI2', 'InflClass[nominal]': 'IndEurO', 'TokenRange': '1747:1752'}"
+9,32,sunt,sum,AUX,N3|modA|tem1|gen9,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",31,aux:pass,,"{'InflClass': 'LatAnom', 'TokenRange': '1753:1757'}"
+9,33,uisibilia,uisibilis,ADJ,C1|grn1|casJ|gen3|vgr1,"{'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Plur'}",31,nsubj,,"{'InflClass': 'IndEurI', 'TokenRange': '1758:1767'}"
+9,34,et,et,CCONJ,O4,,35,cc,,{'TokenRange': '1768:1770'}
+9,35,inuisibilia,inuisibilis,ADJ,C1|grn1|casJ|gen3,"{'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Plur'}",33,conj,,"{'InflClass': 'IndEurI', 'SpaceAfter': 'No', 'TokenRange': '1771:1782'}"
+9,36,",",",",PUNCT,Punc,,31,punct,,{'TokenRange': '1782:1783'}
+9,37,hominem,homo,NOUN,C1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",38,xcomp,,"{'InflClass': 'IndEurX', 'TokenRange': '1784:1791'}"
+9,38,factum,facio,VERB,N2|modM|tem4|grp1|casD|gen1,"{'Aspect': 'Perf', 'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,acl,,"{'InflClass': 'LatI2', 'InflClass[nominal]': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '1792:1798'}"
+9,39,",",",",PUNCT,Punc,,46,punct,,{'TokenRange': '1798:1799'}
+9,40,morte,mors,NOUN,C1|grn1|casF|gen2,"{'Case': 'Abl', 'Gender': 'Fem', 'Number': 'Sing'}",41,nsubj:pass,,"{'InflClass': 'IndEurI', 'TokenRange': '1800:1805'}"
+9,41,deuicta,deuinco,VERB,L2|modM|tem4|grp1|casF|gen2,"{'Aspect': 'Perf', 'Case': 'Abl', 'Gender': 'Fem', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Pass'}",46,advcl,,"{'InflClass': 'LatX', 'InflClass[nominal]': 'IndEurA', 'TokenRange': '1806:1813'}"
+9,42,in,in,ADP,S4,,43,case,,{'TokenRange': '1814:1816'}
+9,43,caelis,caelum,NOUN,B1|grn1|casO|gen3|vgr1,"{'Case': 'Abl', 'Gender': 'Neut', 'Number': 'Plur'}",41,obl,,"{'InflClass': 'IndEurO', 'TokenRange': '1817:1823'}"
+9,44,ad,ad,ADP,S4,,45,case,,{'TokenRange': '1824:1826'}
+9,45,Patrem,pater,NOUN,C1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",46,obl:arg,,"{'InflClass': 'IndEurX', 'TokenRange': '1827:1833'}"
+9,46,receptum,recipio,VERB,L2|modM|tem4|grp1|casD|gen1,"{'Aspect': 'Perf', 'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'VerbForm': 'Part', 'Voice': 'Pass'}",5,acl,,"{'InflClass': 'LatX', 'InflClass[nominal]': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '1834:1842'}"
+9,47,",",",",PUNCT,Punc,,49,punct,,{'TokenRange': '1842:1843'}
+9,48,et,et,CCONJ,O4,,49,cc,,{'TokenRange': '1844:1846'}
+9,49,dedit,do,VERB,J3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",31,conj,,"{'InflClass': 'LatA', 'TokenRange': '1847:1852'}"
+9,50,illi,ille,DET,F1|grn1|casC|gen1,"{'Case': 'Dat', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",49,iobj,,"{'InflClass': 'LatPron', 'TokenRange': '1853:1857'}"
+9,51,omnem,omnis,DET,C1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Tot'}",52,det,,"{'InflClass': 'IndEurI', 'TokenRange': '1858:1863'}"
+9,52,potestatem,potestas,NOUN,C1|grn1|casD|gen2,"{'Case': 'Acc', 'Gender': 'Fem', 'Number': 'Sing'}",49,obj,,"{'InflClass': 'IndEurX', 'TokenRange': '1864:1874'}"
+9,53,super,super,ADP,S4,,55,case,,{'TokenRange': '1875:1880'}
+9,54,omne,omnis,DET,C1|grn1|casD|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Sing', 'PronType': 'Tot'}",55,det,,"{'InflClass': 'IndEurI', 'TokenRange': '1881:1885'}"
+9,55,nomen,nomen,NOUN,C1|grn1|casD|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Sing'}",49,obl,,"{'InflClass': 'IndEurX', 'TokenRange': '1886:1891'}"
+9,56,caelestium,caelestis,ADJ,C1|grn1|casK|gen3|vgr1,"{'Case': 'Gen', 'Gender': 'Neut', 'Number': 'Plur'}",55,nmod,,"{'InflClass': 'IndEurI', 'TokenRange': '1892:1902'}"
+9,57,et,et,CCONJ,O4,,58,cc,,{'TokenRange': '1903:1905'}
+9,58,terrestrium,terrestris,ADJ,C1|grn1|casK|gen3,"{'Case': 'Gen', 'Gender': 'Neut', 'Number': 'Plur'}",56,conj,,"{'InflClass': 'IndEurI', 'TokenRange': '1906:1917'}"
+9,59,et,et,CCONJ,O4,,60,cc,,{'TokenRange': '1918:1920'}
+9,60,infernorum,infernus,ADJ,B1|grn1|casK|gen3,"{'Case': 'Gen', 'Gender': 'Neut', 'Number': 'Plur'}",56,conj,,"{'InflClass': 'IndEurO', 'TokenRange': '1921:1931'}"
+9,61,et,et,CCONJ,O4,,64,cc,,{'TokenRange': '1932:1934'}
+9,62,omnis,omnis,DET,C1|grn1|casA|gen2,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing', 'PronType': 'Tot'}",63,det,,"{'InflClass': 'IndEurI', 'TokenRange': '1935:1940'}"
+9,63,lingua,lingua,NOUN,A1|grn1|casA|gen2,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing'}",64,nsubj,,"{'InflClass': 'IndEurA', 'TokenRange': '1941:1947'}"
+9,64,confiteatur,confiteor,VERB,K3|modK|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Sub', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Pass'}",49,conj,,"{'InflClass': 'LatE', 'TokenRange': '1948:1959'}"
+9,65,ei,is,PRON,F1|grn1|casC|gen1,"{'Case': 'Dat', 'Gender': 'Masc', 'Number': 'Sing', 'Person': '3', 'PronType': 'Prs'}",64,obl:arg,,"{'InflClass': 'LatPron', 'TokenRange': '1960:1962'}"
+9,66,quia,quia,SCONJ,O4,,67,mark,,{'TokenRange': '1963:1967'}
+9,67,Dominus,dominus,NOUN,B1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",64,ccomp,,"{'InflClass': 'IndEurO', 'TokenRange': '1968:1975'}"
+9,68,et,et,CCONJ,O4,,69,cc,,{'TokenRange': '1976:1978'}
+9,69,Deus,deus,NOUN,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",67,conj,,"{'InflClass': 'IndEurO', 'TokenRange': '1979:1983'}"
+9,70,est,sum,AUX,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",67,cop,,"{'InflClass': 'LatAnom', 'TokenRange': '1984:1987'}"
+9,71,Iesus,iesus,PROPN,F1|grn1|casA|gen1|vgr1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",67,nsubj,,"{'InflClass': 'IndEurU', 'NameType': 'Giv', 'TokenRange': '1988:1993'}"
+9,72,Christus,christus,NOUN,B1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",71,flat,,"{'InflClass': 'IndEurO', 'NameType': 'Giv', 'SpaceAfter': 'No', 'TokenRange': '1994:2002'}"
+9,73,",",",",PUNCT,Punc,,75,punct,,{'TokenRange': '2002:2003'}
+9,74,quem,qui,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Rel'}",75,nsubj,,"{'InflClass': 'LatPron', 'TokenRange': '2004:2008'}"
+9,75,credimus,credo,VERB,L3|modA|tem1|gen7,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",71,acl,,"{'InflClass': 'LatX', 'TokenRange': '2009:2017'}"
+9,76,et,et,CCONJ,O4,,77,cc,,{'TokenRange': '2018:2020'}
+9,77,expectamus,exspecto,VERB,J3|modA|tem1|gen7,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",75,conj,,"{'InflClass': 'LatA', 'TokenRange': '2021:2031'}"
+9,78,aduentum,aduentus,NOUN,D1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",77,obj,,"{'InflClass': 'IndEurU', 'TokenRange': '2032:2040'}"
+9,79,ipsius,ipse,DET,F1|grn1|casB|gen1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",78,nmod,,"{'Form': 'Emp', 'InflClass': 'LatPron', 'TokenRange': '2041:2047'}"
+9,80,mox,mox,ADV,O4,,81,advmod,,{'TokenRange': '2048:2051'}
+9,81,futurum,futurus,ADJ,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",78,acl,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '2052:2059'}"
+9,82,",",",",PUNCT,Punc,,83,punct,,{'TokenRange': '2059:2060'}
+9,83,iudex,iudex,NOUN,C1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing'}",71,appos,,"{'InflClass': 'IndEurX', 'TokenRange': '2061:2066'}"
+9,84,uiuorum,uiuus,ADJ,B1|grn1|casK|gen1|vgr1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Plur'}",83,nmod,,"{'InflClass': 'IndEurO', 'TokenRange': '2067:2074'}"
+9,85,atque,atque,CCONJ,O4,,86,cc,,{'TokenRange': '2075:2080'}
+9,86,mortuorum,morior,ADJ,L2|modM|tem4|grp1|casK|gen1,"{'Aspect': 'Perf', 'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part', 'Voice': 'Pass'}",84,conj,,"{'InflClass': 'LatX', 'InflClass[nominal]': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '2081:2090'}"
+9,87,",",",",PUNCT,Punc,,89,punct,,{'TokenRange': '2090:2091'}
+9,88,qui,qui,PRON,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Rel'}",89,nsubj,,"{'InflClass': 'LatPron', 'TokenRange': '2092:2095'}"
+9,89,reddet,reddo,VERB,L3|modA|tem3|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Fut', 'VerbForm': 'Fin', 'Voice': 'Act'}",83,acl:relcl,,"{'InflClass': 'LatX', 'TokenRange': '2096:2102'}"
+9,90,unicuique,unusquisque,DET,F1|grn1|casC|gen1,"{'Case': 'Dat', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Tot'}",89,iobj,,"{'Compound': 'Yes', 'InflClass': 'LatPron', 'TokenRange': '2103:2112'}"
+9,91,secundum,secundum,ADP,S4,,92,case,,{'TokenRange': '2113:2121'}
+9,92,facta,facio,VERB,N2|modM|tem4|grp1|casM|gen3,"{'Aspect': 'Perf', 'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur', 'VerbForm': 'Part', 'Voice': 'Pass'}",89,obl,,"{'InflClass': 'LatI2', 'InflClass[nominal]': 'IndEurO', 'TokenRange': '2122:2127'}"
+9,93,sua,suus,DET,B1|grn1|casM|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Plur', 'Person[psor]': '3', 'Poss': 'Yes', 'PronType': 'Prs', 'Reflex': 'Yes'}",92,det,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '2128:2131'}"
+9,94,;,;,PUNCT,Punc,,96,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '2131:2132'}"
+9,95,et,et,CCONJ,O4,,96,cc,,{'TokenRange': '2133:2135'}
+9,96,effudit,effundo,VERB,L3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",49,conj,,"{'InflClass': 'LatX', 'TokenRange': '2136:2143'}"
+9,97,in,in,ADP,S4,,98,case,,{'TokenRange': '2144:2146'}
+9,98,nobis,nos,PRON,F1|grn1|casO|gen1,"{'Case': 'Abl', 'Number': 'Plur', 'Person': '1', 'PronType': 'Prs'}",96,obl,,"{'InflClass': 'LatAnom', 'TokenRange': '2147:2152'}"
+9,99,habunde,habunde,ADV,B1|grn1|casG|vgr1,,96,advmod,,{'TokenRange': '2153:2160'}
+9,100,Spiritum,spiritus,NOUN,D1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",96,obj,,"{'InflClass': 'IndEurU', 'TokenRange': '2161:2169'}"
+9,101,Sanctum,sanctus,ADJ,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",100,amod,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '2170:2177'}"
+9,102,",",",",PUNCT,Punc,,103,punct,,{'TokenRange': '2177:2178'}
+9,103,donum,donum,NOUN,B1|grn1|casD|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Sing'}",100,appos,,"{'InflClass': 'IndEurO', 'TokenRange': '2179:2184'}"
+9,104,et,et,CCONJ,O4,,105,cc,,{'TokenRange': '2185:2187'}
+9,105,pignus,pignus,NOUN,C1|grn1|casD|gen3,"{'Case': 'Acc', 'Gender': 'Neut', 'Number': 'Sing'}",103,conj,,"{'InflClass': 'IndEurX', 'TokenRange': '2188:2194'}"
+9,106,inmortalitatis,inmortalitas,NOUN,C1|grn1|casB|gen2,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing'}",103,nmod,,"{'InflClass': 'IndEurX', 'SpaceAfter': 'No', 'TokenRange': '2195:2209'}"
+9,107,",",",",PUNCT,Punc,,109,punct,,{'TokenRange': '2209:2210'}
+9,108,qui,qui,PRON,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Rel'}",109,nsubj,,"{'InflClass': 'LatPron', 'TokenRange': '2211:2214'}"
+9,109,facit,facio,VERB,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",100,acl:relcl,,"{'InflClass': 'LatI2', 'TokenRange': '2215:2220'}"
+9,110,credentes,credo,VERB,L2|modD|tem1|grp1|casM|gen1,"{'Aspect': 'Imp', 'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part', 'Voice': 'Act'}",109,xcomp,,"{'InflClass': 'LatX', 'InflClass[nominal]': 'IndEurI', 'TokenRange': '2221:2230'}"
+9,111,et,et,CCONJ,O4,,112,cc,,{'TokenRange': '2231:2233'}
+9,112,oboedientes,oboedio,VERB,M2|modD|tem1|grp1|casJ|gen1,"{'Aspect': 'Imp', 'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Plur', 'VerbForm': 'Part', 'Voice': 'Act'}",110,conj,,"{'InflClass[nominal]': 'IndEurI', 'SpaceAfter': 'No', 'TokenRange': '2234:2245'}"
+9,113,",",",",PUNCT,Punc,,116,punct,,{'TokenRange': '2245:2246'}
+9,114,ut,ut,SCONJ,O4|vgr1,{'PronType': 'Rel'},116,mark,,{'TokenRange': '2247:2249'}
+9,115,sint,sum,AUX,N3|modB|tem1|gen9,"{'Aspect': 'Imp', 'Mood': 'Sub', 'Number': 'Plur', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",116,cop,,"{'InflClass': 'LatAnom', 'TokenRange': '2250:2254'}"
+9,116,filii,filius,NOUN,B1|grn1|casJ|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Plur'}",109,advcl,,"{'InflClass': 'IndEurO', 'TokenRange': '2255:2260'}"
+9,117,Dei,deus,NOUN,F1|grn1|casB|gen1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing'}",116,nmod,,"{'InflClass': 'IndEurO', 'TokenRange': '2261:2264'}"
+9,118,et,et,CCONJ,O4,,119,cc,,{'TokenRange': '2265:2267'}
+9,119,coheredes,coheres,NOUN,C1|grn1|casJ|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Plur'}",116,conj,,"{'InflClass': 'IndEurX', 'TokenRange': '2268:2277'}"
+9,120,Christi,Christus,PROPN,B1|grn1|casB|gen1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing'}",119,nmod,,"{'InflClass': 'IndEurO', 'SpaceAfter': 'No', 'TokenRange': '2278:2285'}"
+9,121,:,:,PUNCT,Punc,,123,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '2285:2286'}"
+9,122,quem,qui,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Rel'}",123,obj,,"{'InflClass': 'LatPron', 'TokenRange': '2287:2291'}"
+9,123,confitemur,confiteor,VERB,K3|modJ|tem1|gen7,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Pass'}",96,conj,,"{'InflClass': 'LatE', 'TokenRange': '2292:2302'}"
+9,124,et,et,CCONJ,O4,,125,cc,,{'TokenRange': '2303:2305'}
+9,125,adoramus,adoro,VERB,J3|modA|tem1|gen7,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Plur', 'Person': '1', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",123,conj,,"{'InflClass': 'LatA', 'TokenRange': '2306:2314'}"
+9,126,unum,unus,DET,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing', 'NumType': 'Card', 'PronType': 'Ind'}",127,det,,"{'InflClass': 'LatPron', 'NumValue': '1', 'TokenRange': '2315:2319'}"
+9,127,Deum,deus,NOUN,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",123,obj,,"{'InflClass': 'IndEurO', 'TokenRange': '2320:2324'}"
+9,128,in,in,ADP,S4,,129,case,,{'TokenRange': '2325:2327'}
+9,129,trinitate,trinitas,NOUN,C1|grn1|casF|gen2,"{'Case': 'Abl', 'Gender': 'Fem', 'Number': 'Sing'}",127,obl,,"{'InflClass': 'IndEurX', 'TokenRange': '2328:2337'}"
+9,130,sacri,sacer,ADJ,B1|grn1|casB|gen3,"{'Case': 'Gen', 'Gender': 'Neut', 'Number': 'Sing'}",131,amod,,"{'InflClass': 'IndEurO', 'TokenRange': '2338:2343'}"
+9,131,nominis,nomen,NOUN,C1|grn1|casB|gen3,"{'Case': 'Gen', 'Gender': 'Neut', 'Number': 'Sing'}",129,nmod,,"{'InflClass': 'IndEurX', 'SpaceAfter': 'No', 'TokenRange': '2344:2351'}"
+9,132,.,.,PUNCT,Punc,,49,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '2351:2352'}"
+10,1,Ipse,ipse,DET,F1|grn1|casA|gen1,"{'Case': 'Nom', 'Gender': 'Masc', 'Number': 'Sing', 'PronType': 'Dem'}",3,nsubj,,"{'Form': 'Emp', 'InflClass': 'LatPron', 'TokenRange': '2353:2357'}"
+10,2,enim,enim,PART,O4,,3,discourse,,{'TokenRange': '2358:2362'}
+10,3,dixit,dico,VERB,N3|modA|tem4|gen6,"{'Aspect': 'Perf', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Past', 'VerbForm': 'Fin', 'Voice': 'Act'}",0,root,,"{'InflClass': 'LatX', 'TokenRange': '2363:2368'}"
+10,4,per,per,ADP,S4,,5,case,,{'TokenRange': '2369:2372'}
+10,5,prophetam,propheta,NOUN,B1|grn1|casD|gen1,"{'Case': 'Acc', 'Gender': 'Masc', 'Number': 'Sing'}",3,obl,,"{'InflClass': 'IndEurA', 'SpaceAfter': 'No', 'TokenRange': '2373:2382'}"
+10,6,:,:,PUNCT,Punc,,3,punct,,{'TokenRange': '2382:2383'}
+11,1,Inuoca,inuoco,VERB,J3|modC|tem1|gen5,"{'Aspect': 'Imp', 'Mood': 'Imp', 'Number': 'Sing', 'Person': '2', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",0,root,,"{'InflClass': 'LatA', 'TokenRange': '2384:2390'}"
+11,2,me,ego,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",1,obj,,"{'InflClass': 'LatAnom', 'TokenRange': '2391:2393'}"
+11,3,in,in,ADP,S4,,4,case,,{'TokenRange': '2394:2396'}
+11,4,die,dies,NOUN,E1|grn1|casF|gen1,"{'Case': 'Abl', 'Gender': 'Masc', 'Number': 'Sing'}",1,obl,,"{'InflClass': 'IndEurE', 'TokenRange': '2397:2400'}"
+11,5,tribulationis,tribulatio,NOUN,C1|grn1|casB|gen2,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing'}",4,nmod,,"{'InflClass': 'IndEurX', 'TokenRange': '2401:2414'}"
+11,6,tuae,tuus,DET,A1|grn1|casB|gen2|vgr1,"{'Case': 'Gen', 'Gender': 'Fem', 'Number': 'Sing', 'Number[psor]': 'Sing', 'Person[psor]': '2', 'Poss': 'Yes', 'PronType': 'Prs'}",5,det,,"{'InflClass': 'IndEurA', 'TokenRange': '2415:2419'}"
+11,7,et,et,CCONJ,O4,,8,cc,,{'TokenRange': '2420:2422'}
+11,8,liberabo,libero,VERB,J3|modA|tem3|gen4,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '1', 'Tense': 'Fut', 'VerbForm': 'Fin', 'Voice': 'Act'}",1,conj,,"{'InflClass': 'LatA', 'TokenRange': '2423:2431'}"
+11,9,te,tu,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Number': 'Sing', 'Person': '2', 'PronType': 'Prs'}",8,obj,,"{'InflClass': 'LatAnom', 'TokenRange': '2432:2434'}"
+11,10,et,et,CCONJ,O4,,11,cc,,{'TokenRange': '2435:2437'}
+11,11,magnificabis,magnifico,VERB,J3|modA|tem3|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '2', 'Tense': 'Fut', 'VerbForm': 'Fin', 'Voice': 'Act'}",1,conj,,"{'InflClass': 'LatA', 'TokenRange': '2438:2450'}"
+11,12,me,ego,PRON,F1|grn1|casD|gen1,"{'Case': 'Acc', 'Number': 'Sing', 'Person': '1', 'PronType': 'Prs'}",11,obj,,"{'InflClass': 'LatAnom', 'SpaceAfter': 'No', 'TokenRange': '2451:2453'}"
+11,13,.,.,PUNCT,Punc,,1,punct,,{'TokenRange': '2453:2454'}
+12_13,1,Et,et,CCONJ,O4,,3,cc,,{'TokenRange': '2455:2457'}
+12_13,2,iterum,iterum,ADV,O4,,3,advmod:tmod,,"{'AdvType': 'Tim', 'TokenRange': '2458:2464'}"
+12_13,3,inquit,inquam,VERB,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin', 'Voice': 'Act'}",11,parataxis,,"{'InflClass': 'LatX', 'SpaceAfter': 'No', 'TokenRange': '2465:2471'}"
+12_13,4,:,:,PUNCT,Punc,,3,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '2471:2472'}"
+12_13,5,Opera,opera,NOUN,A1|grn1|casA|gen2,"{'Case': 'Nom', 'Gender': 'Fem', 'Number': 'Sing'}",8,obj,,"{'InflClass': 'IndEurA', 'TokenRange': '2473:2478'}"
+12_13,6,autem,autem,PART,O4,,5,discourse,,{'TokenRange': '2479:2484'}
+12_13,7,Dei,deus,NOUN,F1|grn1|casB|gen1,"{'Case': 'Gen', 'Gender': 'Masc', 'Number': 'Sing'}",5,nmod,,"{'InflClass': 'IndEurO', 'TokenRange': '2485:2488'}"
+12_13,8,reuelare,reuelo,VERB,J3|modH|tem1,"{'Aspect': 'Imp', 'VerbForm': 'Inf', 'Voice': 'Act'}",11,csubj,,"{'InflClass': 'LatA', 'TokenRange': '2489:2497'}"
+12_13,9,et,et,CCONJ,O4,,10,cc,,{'TokenRange': '2498:2500'}
+12_13,10,confiteri,confiteor,VERB,K3|modQ|tem1,"{'Aspect': 'Imp', 'VerbForm': 'Inf', 'Voice': 'Pass'}",8,conj,,"{'InflClass': 'LatE', 'TokenRange': '2501:2510'}"
+12_13,11,honorificum,honorificus,ADJ,B1|grn1|casA|gen3,"{'Case': 'Nom', 'Gender': 'Neut', 'Number': 'Sing'}",0,root,,"{'InflClass': 'IndEurO', 'TokenRange': '2511:2522'}"
+12_13,12,est,sum,AUX,N3|modA|tem1|gen6,"{'Aspect': 'Imp', 'Mood': 'Ind', 'Number': 'Sing', 'Person': '3', 'Tense': 'Pres', 'VerbForm': 'Fin'}",11,cop,,"{'InflClass': 'LatAnom', 'SpaceAfter': 'No', 'TokenRange': '2523:2526'}"
+12_13,13,.,.,PUNCT,Punc,,11,punct,,"{'SpacesAfter': '\\n', 'TokenRange': '2526:2527'}"
