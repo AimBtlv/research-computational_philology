@@ -1,18 +1,18 @@
-**Sentence 5: 
-1. Find the Sentence Skeleton
-*What we do:* define **root**, then **nsubj/csubj**, **obj**, **iobj**, **xcomp**, **ccomp**.
-Find Root:
-What? The sentence begins with et Dominus induxit this is the main clause. ROOT = induxit (The Lord brought wrath upon us).
-Why?
-Notes?** 
-Find Clause: Then comes a long chain of coordination through 'et'
-All coordinated verbs depend on induxit via conj:
+## Sentence 1
 
-conj 1 dispersit (induxit).
-conj 2 aperuit (induxit).
-conj 3 custodiuit (induxit).
-conj 4 muniuit (induxit).
-conj 5 consolatus es (induxit).
+> *Ego Patricius peccator rusticissimus et minimus omnium fidelium et contemptibilissimus apud plurimos patrem habui Calpornium diaconum filium quendam Potiti presbyteri, qui fuit uico bannauem taburniae;* 
+1. Find the Sentence Skeleton
+**What?**
+- **root:** `habui`main finite verb, perf. ind. act.
+- **nsubj:** `Ego`nominative first-person pronoun.
+- **obj:** `patrem` (`habui`) direct accusative object, no preposition
+- No **iobj**, **xcomp**, or **ccomp** in main clause
+**Why?**
+`habui` is the only fully inflected finite verb in the main clause. `Ego` is nominative and answers the question *who had*. `patrem` is accusative without a preposition and can be removed to make the sentence ungrammatical therefore `obj`, not `obl`.
+
+**Notes?**
+The subject `Ego` is explicit here, emphasizing Patrick's personal voice. All subsequent predicates in the text have an elided subject recoverable from this Ego.
+
 ---
 
 2. Find the Bridge Words
